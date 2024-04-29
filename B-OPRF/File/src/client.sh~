@@ -1,0 +1,10 @@
+#!/bin/bash
+
+start_seconds=$(date +%s)
+
+taskset -c 1,2 ./file 1 1234
+
+end_seconds=$(date +%s)
+
+execution_time=$(($end_seconds - $start_seconds))
+echo "Job execution time:$execution_time seconds"

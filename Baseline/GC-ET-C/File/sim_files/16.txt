@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v46-2022-02-17.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.6 2022-02-17" file="US20230210037A1-20230706.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20230620" date-publ="20230706">
+<us-bibliographic-data-application lang="EN" country="US">
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>20230210037</doc-number>
+<kind>A1</kind>
+<date>20230706</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>18115089</doc-number>
+<date>20230228</date>
+</document-id>
+</application-reference>
+<us-application-series-code>18</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="regional">
+<country>EP</country>
+<doc-number>19171117.5</doc-number>
+<date>20190425</date>
+</priority-claim>
+</priority-claims>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>3</main-group>
+<subgroup>34</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230706</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>63</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230706</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>63</main-group>
+<subgroup>32</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230706</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>3</main-group>
+<subgroup>34</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230706</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>63</main-group>
+<subgroup>004</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230706</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>63</main-group>
+<subgroup>008</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230706</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>63</main-group>
+<subgroup>32</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230706</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<invention-title id="d2e61">AGRICULTURAL IMPLEMENT</invention-title>
+<us-related-documents>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>16844022</doc-number>
+<date>20200409</date>
+</document-id>
+<parent-status>PENDING</parent-status>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>18115089</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="00" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>CNH Industrial America LLC</orgname>
+<address>
+<city>New Holland</city>
+<state>PA</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="00" designation="us-only">
+<addressbook>
+<last-name>Hertzog</last-name>
+<first-name>Daniel</first-name>
+<address>
+<city>Blackstad</city>
+<country>SE</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="01" designation="us-only">
+<addressbook>
+<last-name>Linderson</last-name>
+<first-name>Bengt Per-Inge</first-name>
+<address>
+<city>Odensvi</city>
+<country>SE</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="02" designation="us-only">
+<addressbook>
+<last-name>Wallin</last-name>
+<first-name>Per Dennis</first-name>
+<address>
+<city>Vastervik</city>
+<country>SE</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="03" designation="us-only">
+<addressbook>
+<last-name>Nilsson</last-name>
+<first-name>Carl Ola Fredrik</first-name>
+<address>
+<city>Vastervik</city>
+<country>SE</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="04" designation="us-only">
+<addressbook>
+<last-name>Svensson</last-name>
+<first-name>Robert</first-name>
+<address>
+<city>Loftahammar</city>
+<country>SE</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="05" designation="us-only">
+<addressbook>
+<last-name>N&#xe5;hdin</last-name>
+<first-name>Rickard Karl Gustav</first-name>
+<address>
+<city>Gamleby</city>
+<country>SE</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+</us-bibliographic-data-application>
+<abstract id="abstract">
+<p id="p-0001" num="0000">The present invention relates to a plough implement comprising a main frame supporting a plurality of first ground engaging tools, wherein the plough implement comprises a depth adjustment apparatus for moving a first ground engaging tool of the plurality of first ground engaging tools with respect to the main frame to enable adjustment of a working depth of the first ground engaging tool.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="67.90mm" wi="158.75mm" file="US20230210037A1-20230706-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="225.47mm" wi="141.82mm" orientation="landscape" file="US20230210037A1-20230706-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="232.66mm" wi="141.82mm" orientation="landscape" file="US20230210037A1-20230706-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="230.55mm" wi="130.30mm" orientation="landscape" file="US20230210037A1-20230706-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="222.33mm" wi="117.60mm" orientation="landscape" file="US20230210037A1-20230706-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="240.37mm" wi="108.80mm" orientation="landscape" file="US20230210037A1-20230706-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="222.33mm" wi="113.03mm" orientation="landscape" file="US20230210037A1-20230706-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="218.19mm" wi="113.88mm" orientation="landscape" file="US20230210037A1-20230706-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="187.62mm" wi="121.41mm" orientation="landscape" file="US20230210037A1-20230706-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="211.92mm" wi="139.87mm" orientation="landscape" file="US20230210037A1-20230706-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="107.70mm" wi="135.47mm" orientation="landscape" file="US20230210037A1-20230706-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="223.60mm" wi="143.51mm" orientation="landscape" file="US20230210037A1-20230706-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00012" num="00012">
+<img id="EMI-D00012" he="236.90mm" wi="125.05mm" orientation="landscape" file="US20230210037A1-20230706-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?summary-of-invention description="Summary of Invention" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">The present disclosure relates to an agricultural plough, particularly, but not exclusively, to a plough implement. Another aspect relates to agricultural machinery comprising the plough implement. Other aspects relate to a method for adjusting the working depth of a plough implement.</p>
+<p id="p-0003" num="0002">In agriculture, farming cycles are followed that can roughly be divided into the different steps of land preparation, seed sowing, fertilizing, irrigation, crop growth, and harvesting. Each of these steps is critical to yield optimal crop results and achieve the desired returns on initial investments. Of the listed steps, land preparation is typically further divided into steps of, as necessary, clearing obstructions (e.g. bushes, stones and rocks) and subsequent tillage.</p>
+<p id="p-0004" num="0003">Tilling crumbles and loosens the soil, improves the soil structure and incorporates crop residues and manure into the soil, thus fertilizing the ground. The improved soil structure allows for increased plant root growth, soil aeration and water penetration/filtration. Overall this results in higher yields, better long-term soil fertility, soil moisture retention, and weed management. Tillage can be separated into primary (relatively deep) and secondary (relatively shallow) tillage. In primary tillage, such as ploughing, the soil is turned over such that nutrients come to the surface. In addition to turning up the soil to bring fresh nutrients to the top and depositing plant residue below where it will break down, this process also aerates the earth&#x2014;enabling it to hold more moisture. Preparing the land to a greater depth produces a rougher surface finish than secondary tillage. Secondary tillage (e.g. seedbed cultivation) breaks up soil clods into smaller masses which might be desirable for small seeds or plants that have minimal clod-handling ability.</p>
+<p id="p-0005" num="0004">Primary tillage, and particularly ploughing, is widely regarded as one of the most effective ways of preventing crop disease, removing weeds, and controlling mice and other pests. In its simplest form the turnplough, also known as the mouldboard plough, includes a variety of plough bodies, which are blades for penetrating and turning over the soil in arrays of adjacent trenches, known as furrows. Modern ploughs typically include a plurality of plough bodies connected to a plough frame such that they are laterally offset manner from each other when the plough is in use. Each plough body is connected to the plough frame via corresponding beams. The plough frame, in turn, is connected to a towing or pushing vehicle via a hitch arranged at a front or back end of the frame.</p>
+<p id="p-0006" num="0005">Depending on the density of the soil, a working depth of the plough bodies can be adjusted. For instance, the plough bodies working depth may be shallow in harder (dense) soils, whereas a deeper working depth may be applied in softer (less dense) soils. The plough bodies can be rigidly attached to the main frame, such that their distance from the main frame remains constant. Accordingly, the working depth of the ploughs are then adjusted by varying the ground clearance of the main frame. If the main frame is brought closer to the ground surface, the ground clearance is reduced, and the plough bodies penetrate deeper into the soil. Similarly, if the main frame is lifted further off the ground, the ground clearance is increased and the plough bodies are pulled out of the soil, thereby reducing the working depth.</p>
+<p id="p-0007" num="0006">The ground clearance of the main frame may be controlled by one or more depth wheels. The one or more depth wheels may be connected to any part of the main frame such as the rear end of the main frame. An adjustable linkage may be provided between the main frame and the depth wheel to allow for changes in the distance between the depth wheel and the main frame. During ploughing, the depth wheel runs on the ground surface and supports the weight of the plough. If the distance between the depth wheel and the main frame is reduced, then the ground clearance between the main frame and the ground surface reduces accordingly. On the other hand, if the distance between the depth wheel and the main frame is increased, the ground clearance of the main frame increases. As outlined before, changing the main frame's ground clearance results in a variation of the plough body working depth.</p>
+<p id="p-0008" num="0007">Most modern ploughs are of the reversible type, in which the main frame is rotatable by 180 degrees (i.e. reversed) with respect to the headstock. A turning cylinder attached to the headstock may be used to rotate (reverse) the plough. During rotation of the main frame, a first set of plough bodies, which was initially arranged below the main frame (first configuration), is transferred to the top of the main frame. At the same time, a second set of plough bodies, which was initially arranged on top of the main frame, is then transferred to a position below the main frame. The reversible plough is then in its second configuration. The main frame may be repeatedly rotated (reversed) between the first and second configuration, particularly during turning manoeuvres on the headlands. Whenever the plough is reversed, the first and second set of plough bodies swap position.</p>
+<p id="p-0009" num="0008">In reversible ploughs, a device of adjusting the working depth of the plough bodies (i.e. the main frame) is required for both configurations of the reversible plough. There are mainly two types of depth control wheels for reversible ploughs. A first type includes a single pivoting depth wheel, which is used in both configurations of the reversible plough. The single pivoting depth wheel has to be moved from one side of the main frame to the other during reversal. This side transfer of the single depth wheel may be achieved by swinging the latter from one side to the other. The swinging movement needs to be controlled/dampened to avoid excessive impacts as the wheel swings down during reversal of the plough.</p>
+<p id="p-0010" num="0009">A second solution avoids the need for a movement of the depth adjustment wheel from one side to the other. In this second alternative, two separate depth wheels may be fixed to the main frame. A first depth wheel can be arranged on a first side of the main frame and a second depth wheel may be arranged on the second, opposite side of the main frame. Each of the two wheels is then only utilised in one configuration of the plough. This double wheel arrangement does not experience dynamic impacts, because the first and second depth wheels are fixed in place during the reversal procedure. However, it is a problem that this &#x201c;double-/dual-wheel&#x201d; solution places restrictions on the maximum diameter of the depth wheels, since larger diameters may cause the wheels to touch, particularly when the working depth of the plough bodies is set to deeper levels. Yet, it is generally desirable to utilise large diameter wheels to reduce rolling resistance and soil compaction.</p>
+<p id="p-0011" num="0010">A common problem to both types of depth wheel arrangement described above is that the ground clearance of the main frame is reduced as the working depth of the plough bodies is increased. This reduction of the ground clearance may cause other parts supported by the main frame, such as skimmers or coulters, to start penetrating into the soil deeper than desired. Moreover, reduced ground clearance of the main frame may reduce manoeuvrability of the plough implement and cause soil to adhere to the main frame, thereby reducing the plough implement's service live.</p>
+<p id="p-0012" num="0011">In view of the above, there is generally a need for improved depth adjustment mechanisms and methods for plough implements.</p>
+<p id="p-0013" num="0012">It is an aim of the present invention to solve or at least ameliorate one or more problems of the prior art.</p>
+<heading id="h-0002" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0014" num="0013">Aspects and embodiments of the disclosure provide a plough implement and an agricultural machinery as claimed in the appended claims.</p>
+<p id="p-0015" num="0014">In a first aspect of the present disclosure, there is provided a plough implement comprising a main frame supporting a plurality of first ground engaging tools, wherein the plough implement comprises a depth adjustment apparatus for moving at least a first ground engaging tool of the plurality of first ground engaging tools with respect to the main frame to enable adjustment of the working depth of the first ground engaging tool.</p>
+<p id="p-0016" num="0015">Moving the ground engaging tool with respect to the main frame enables the main frame of the plough implement to remain fixed during adjustment of the working depth. In other words, the ground clearance of the main frame does not have to be altered to increase or decrease the working depth of the first ground engaging tool. Rather, the first ground engaging tool itself is actively moved (e.g. up and down) with respect to the main frame to directly adjust the working depth of the first ground engaging tool. The depth adjustment tool is capable of moving the first ground engaging tool into various positions that relate to different working depths. The depth adjustment tool may be able to actively increase and actively decrease the working depth of the first ground engaging tool, even if the plough implement is stationary. The movement of the first ground engaging tool with respect to the main frame may be implemented in a variety of ways, some of which will be discussed in more detail below. In some embodiments, more than one of the pluralities of ground engaging tools may be moved with respect to the main frame individually or simultaneously as will be described below. Similarly, it may also be useful to only move a single ground engaging tool of the plurality of first ground engaging tools with respect to the main frame. For example, a first plough body of an agricultural plough may be moveable with respect to the main frame to adjust the depth of the first furrow, whereas the remaining plough bodies remain fixed with respect to the main frame.</p>
+<p id="p-0017" num="0016">In one embodiment, the depth adjustments apparatus is capable of moving the first and a second ground engaging tool of the plurality of first ground engaging tools with respect to the main frame such that the movement of the first and second ground engaging tools is synchronised. In other words, the depth adjustment apparatus may be capable of moving more than one grounding engaging tool with respect to the main frame. In this example, a single depth adjustment apparatus may be used to move a first and a second ground engaging tool with respect to the main frame in a synchronised manner. Rather than only moving two ground engaging tools, it may also be possible to use the depth adjustment apparatus to move all of the plurality of the first ground engaging tools with respect to the main frame in a synchronised manner. Alternatively, if the plough implement comprises six ground engaging tools, one embodiment may comprise three depth adjustment apparatus, each being capable of moving pairs of ground engaging tools in a synchronised manner. It follows that, in this example, three synchronised pairs of ground engaging tools are moved by three depth adjustment apparatus. Moving two or more of the ground engaging tools in a synchronised manner has the advantage that a homogeneous working depth is achieved for the plurality of first ground engaging tools, therefore providing a more repeatable ground preparation.</p>
+<p id="p-0018" num="0017">In yet another embodiment, the plough implement comprises at least two depth adjustment apparatus, for moving the first and a second ground engaging tool of the plurality of first ground engaging tools with respect to the main frame, and wherein the two depth adjustment apparatus are capable of moving the first and second ground engaging tools independently of each other. According to this embodiment, each of the two or more ground engaging tools of the plurality of first ground engaging tools isendently moveable with respect to the frame. A first ground engaging tool is moveable by a first depth adjustment apparatus and a second ground engaging tool is moveable by a second depth adjustment apparatus. It follows that the working depth of each individual ground engaging tool may be adjusted independently of the remaining engaging tools of the plough implement. This may be particularly useful in fields with a high number of smaller obstacles, which may be avoided by individually lifting some, but not all, of the plurality of first ground engaging tools out of the ground.</p>
+<p id="p-0019" num="0018">The first ground engaging tool of the plurality of first ground engaging tools may be attached to the main frame in a predetermined orientation with respect to a ground surface, the depth adjustment apparatus being capable of moving the first ground engaging tool with respect to the main frame without changing the predetermined orientation of the first ground engaging tool. In one embodiment, the first ground engaging tool may be oriented parallel to the grounds surface, e.g. horizontal on a flat field. Maintaining the orientation of the ground engaging tool with respect to the ground surface is an important factor in achieving the desired tillage results. In the example of a plough, the shares of the plough bodies are designed to work most effectively in a certain orientation with respect to the ground. Accordingly, the depth adjustment apparatus may be constructed to change the working depth of the first ground engaging tool without changing the orientation of the first ground engaging tool with respect to the ground surface at all. Alternatively, the depth adjustment apparatus may be constructed such that the orientation of the first ground engaging tool can be altered as the working depth is adjusted. In other words, the depth adjustment apparatus may compensate for variations in the ground engaging tool orientation automatically during adjustment of the working depth.</p>
+<p id="p-0020" num="0019">In one embodiment, the depth adjustment apparatus may comprise a parallelogram linkage, particularly a four-link parallelogram linkage, connecting the main frame to the first ground engaging tool. The depth adjustment apparatus of this embodiment enables a pivotal movement of a first ground engaging tool into and out of the soil without changing the orientation of the ground engaging tool in the process. In this embodiment, the first ground engaging tool may be connected to the coupler of the four-link parallelogram linkage.</p>
+<p id="p-0021" num="0020">In other alternative embodiments, the depth adjustment apparatus may comprise any other linkage suitable to move the ground engaging tool(s) with respect to the main frame while maintaining the required stability. In one example, a scissor linkage may connect the main frame to the first ground engaging tool. The scissor linkage may be connected to the main frame such that the first ground engaging tool may be lifted and lowered in a direction that is substantially perpendicular to the main frame.</p>
+<p id="p-0022" num="0021">The depth adjustment apparatus may comprise an actuator. The actuator may be arranged between the main frame and the first ground engaging tool and be configured to initiate movement of the first ground engaging tool with respect to the frame. The actuator may be a hydraulic actuator, such as a hydraulic cylinder. Of course, it is equivalently feasible to utilise any other suitable actuator, such as electric or pneumatic actuators.</p>
+<p id="p-0023" num="0022">In another embodiment, the depth adjustment apparatus comprises two actuators, particularly two hydraulic cylinders, a first actuator for adjusting a working depth of the first ground engaging tool and a second actuator for adjusting an orientation of the first ground engaging tool. The depth adjustment apparatus of this embodiment may be configured to synchronise the movement of the first and second actuators such that the orientation of the first ground engaging tool remains constant as the first ground engaging tool is moved in and out of the soil by the first actuator. In one example, the first actuator may cause a pivoting movement of the first ground engaging tool with respect to the main frame, which, depending on the linkage between the main frame and the first ground engaging tool, may cause a change of orientation of the first ground engaging tool. The second actuator may, therefore, be synchronised with the movement of the first actuator, such that the second actuator compensates for the change in orientation of the first ground engaging tool caused by the pivoting movement.</p>
+<p id="p-0024" num="0023">In yet another embodiment, the plough implement comprises a control unit for controlling the depth adjustment apparatus, wherein the control unit is configured to decrease the working depth of the first ground engaging tool of the plurality of first ground engaging tools if an obstacle collision is encountered and/or predicted. According to this embodiment, the depth adjustment apparatus is used as a so-called stone-trip and may, therefore, replace other stone-trip mechanisms that are typically provided on a plough implement. The control unit may be configured to pull the first ground engaging tool out of the soil if an obstacle, such as a rock or stone is encountered and/or predicted to avoid damage to the first ground engaging tool. This particular embodiment refers to an active control of the depth adjustment apparatus in response to obstacle collisions or the prediction thereof. Alternatively, the depth adjustment apparatus may also be set up as a passive stone-trip, in which case the depth adjustment apparatus works as a dampener if an obstacle is encountered. A control unit is not necessarily required for the passive construction of the depth adjustment apparatus.</p>
+<p id="p-0025" num="0024">The plough implement may comprise an obstacle sensor for identifying obstacles in the soil, the obstacle sensor being arranged in front of the first ground engaging tool in a direction of travel. The obstacle sensor may be advantageous in combination with the active stone-trip functionality of the depth adjustment apparatus. This is because, the obstacle sensor may be used to predict obstacle collisions of one or more of the first ground engaging tools during operation of the plough implement. For example, the obstacle sensor may be able to identify the size and position of the obstacle and feed this information back to a control unit in the form of obstacle data. The control unit may use the obstacle data to identify the ground engaging tool or tools that are predicted to collide with the obstacle(s) identified by the obstacle sensor. The control unit may then activate the actuator to move the corresponding ground engaging tools out of the soil just before a collision occurs. Once the plough implement has passed the obstacle, the control unit may then activate the actuator of the depth adjustment apparatus to lower the respective ground engaging tools back into the ground.</p>
+<p id="p-0026" num="0025">In yet another embodiment, the main frame supports a plurality of second ground engaging tools and is transferable between a first configuration, in which the plurality of first ground engaging tools are in a working position, and a second configuration in which the plurality of second ground engaging tools are in a working position, the plough implement comprising a depth adjustment apparatus for moving a first ground engaging tool of the plurality of second ground engaging tools with respect to the main frame to enable adjustment of a working depth of the first ground engaging tool of the plurality of second ground engaging tools. In other words, the plough implement may have a plurality of first and second ground engaging tools on either side of the main frame. In one example, the plough implement of this embodiment may be a reversible plough with a plurality of first plough bodies on a first side of the main frame and a plurality of second plough bodies on a second side of the main frame. Of course, depending on the current configuration of the main frame, an adjustment of either the plurality of first ground engaging tools or the plurality of second ground engaging tool is necessary. In order to adjust a first ground engaging tool of the plurality of second ground engaging tools (e.g. in the second configuration of the main frame), a depth adjustment apparatus may be provided, similar to the depth adjustment apparatus discussed above. The depth adjustment apparatus for the first ground engaging tool of the plurality of second ground engaging tools may be the same as the depth adjustment apparatus of the first ground engaging tool of the plurality of first ground engaging tools. In other words, a single depth adjustment apparatus may be able to change the working depth of at least one ground engaging tool on either side of the main frame. Alternatively, the ground engaging tools on either side of the main frame may be adjusted by separate depth adjustment apparatus. That is, a first depth adjustment apparatus may be provided for the first ground engaging tool of the plurality of first ground engaging tools and a second depth adjustment apparatus may be provided for the first ground engaging tool of the plurality of the second ground engaging tools. This embodiment enables individual adjustment of the ground engaging tools on either side of the main frame, which may be particularly useful in anticipation of uneven grounds for the next run, after reversing the plough.</p>
+<p id="p-0027" num="0026">The first ground engaging tool of the plurality of first ground engaging tools may be moveable independently of the first ground engaging tool of the second plurality of ground engaging tools.</p>
+<p id="p-0028" num="0027">In another embodiment, the depth adjustment mechanism is capable of moving the first ground engaging tool between a first position, in which a minimum working depth is set, and a second position in which a maximum working depth is set, the plough implement comprising a first stop for locking the first ground engaging tool in its first position and/or wherein the ground engaging implement comprises a second stop for locking the first ground engaging tool in its second position. In other words, the first ground engaging tool may be locked in its maximum and/or minimum working depth positions. This may reduce unintentional vibrations during use of the plough implement. Of course, it is also feasible to lock the first ground engaging tool in any position between its first and second position.</p>
+<p id="p-0029" num="0028">In another embodiment, the at least one ground engaging tool is a plough body. Alternatively, the at least one ground engaging tool may be a skimmer</p>
+<p id="p-0030" num="0029">The plough implement may be a reversible plough.</p>
+<p id="p-0031" num="0030">In another aspect of the present disclosure, there is provided an agricultural machinery comprising an agricultural vehicle, such as tractor, and any embodiment of the plough implement described above, wherein the plough implement is connected to the front or rear of the agricultural vehicle.</p>
+<p id="p-0032" num="0031">The agricultural vehicle or tractor may include one or more control devices, such as but not limited to programmable or non-programmable processors. Similarly, the plough implement may include one or more control devices, such as but not limited to programmable or non-programmable processors. Additionally or alternatively, the plough implement may be controlled by one or more control devices of the agricultural vehicle. Similarly, the agricultural vehicle may be controlled by one or more control devices of the plough implement.</p>
+<p id="p-0033" num="0032">The agricultural vehicle and/or the plough implement may be remote controlled, e.g. from a farm office. Accordingly, the agricultural vehicle may include one or more communication interfaces for connection to a remote processor and/or a remote controller. Similarly, the plough implement may include one or more communication interfaces for connection to a remote processor and/or a remote controller.</p>
+<p id="p-0034" num="0033">According to another aspect of the present disclosure, there is provided a method for adjusting the working depth of a plough implement with a main frame and at least one ground engaging tool, the ground engaging tool being movable with respect to the main frame to adjust the working depth of the ground engaging tool. The method comprises steps for:</p>
+<p id="p-0035" num="0034">detecting the presence of an obstacle in a path of the ground engaging tool of the plough implement; and</p>
+<p id="p-0036" num="0035">reducing the working depth of the ground engaging tool.</p>
+<p id="p-0037" num="0036">Detection of the obstacle may either be done pro-actively by an obstacle sensor, such as a stone sensor, or re-actively, once the ground engaging tool collides with an obstacle. It follows that adjustment of the working depth may be done pro-actively to avoid a collision and reactively, as a way of damage control.</p>
+<p id="p-0038" num="0037">Within the scope of this application it is expressly intended that the various aspects, embodiments, examples and alternatives set out in the preceding paragraphs, and the claims and/or the following description and drawings, and in particular the individual features thereof, may be taken independently or in any combination. That is, all embodiments and all features of any embodiment can be combined in any way and/or combination, unless such features are incompatible. The applicant reserves the right to change any originally filed claim or file any new claim accordingly, including the right to amend any originally filed claim to depend from and/or incorporate any feature of any other claim although not originally claimed in that manner.</p>
+<?summary-of-invention description="Summary of Invention" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0039" num="0038">One or more embodiments of the present disclosure will now be described by way of example only, with reference to the accompanying drawings, in which:</p>
+<p id="p-0040" num="0039"><figref idref="DRAWINGS">FIG. <b>1</b>A</figref> shows a right-side view of a plough implement with fixed ground engaging tools;</p>
+<p id="p-0041" num="0040"><figref idref="DRAWINGS">FIG. <b>1</b>B</figref> shows a left-side view of the plough implement shown in <figref idref="DRAWINGS">FIG. <b>1</b>A</figref>;</p>
+<p id="p-0042" num="0041"><figref idref="DRAWINGS">FIG. <b>1</b>C</figref> shows a plan view of the plough implement shown in <figref idref="DRAWINGS">FIG. <b>1</b>A</figref>;</p>
+<p id="p-0043" num="0042"><figref idref="DRAWINGS">FIG. <b>2</b></figref> shows a schematic representation of a ground engaging tool connected to the main frame of a plough implement via a four-bar-linkage;</p>
+<p id="p-0044" num="0043"><figref idref="DRAWINGS">FIG. <b>3</b></figref> shows a schematic representation of two ground engaging tools connected to a main frame of a plough implement in a synchronised fashion;</p>
+<p id="p-0045" num="0044"><figref idref="DRAWINGS">FIG. <b>4</b></figref> shows a schematic representation of a ground engaging tool connected to a main frame of a plough implement via four-bar-linkage;</p>
+<p id="p-0046" num="0045"><figref idref="DRAWINGS">FIG. <b>5</b></figref> shows a schematic representation of a ground engaging tool connected to a main frame of a plough implement with two separate actuators;</p>
+<p id="p-0047" num="0046"><figref idref="DRAWINGS">FIG. <b>6</b></figref> shows a schematic representation of a ground engaging tool connected to a main frame of a plough implement with a sliding mechanism. <figref idref="DRAWINGS">FIG. <b>7</b></figref> shows a schematic representation of parts of a plough implement comprising an obstacle sensor;</p>
+<p id="p-0048" num="0047"><figref idref="DRAWINGS">FIG. <b>8</b></figref> shows a flow diagram for a method of adjusting the working depth of a plough implement;</p>
+<p id="p-0049" num="0048"><figref idref="DRAWINGS">FIG. <b>9</b></figref> shows a schematic representation of the trajectory of an agricultural machinery within a work area;</p>
+<p id="p-0050" num="0049"><figref idref="DRAWINGS">FIG. <b>10</b></figref> shows a plough implement moving on an uneven ground surface.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?detailed-description description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0051" num="0050"><figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref> show various views of a plough implement, particularly a plough <b>10</b>. As will be described in more detail below, the plough <b>10</b> shown in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref> is a reversible plough.</p>
+<p id="p-0052" num="0051">The plough <b>10</b> comprises a main frame <b>12</b>. The main frame <b>12</b> may be a rectangular or round tube extending between a headstock <b>14</b> at a front end <b>16</b> of the plough towards an implement wheel <b>20</b> at a rear end <b>18</b> of the plough. The main frame <b>12</b> supports a variety of ground-engaging tools.</p>
+<p id="p-0053" num="0052">In the example of <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref>, the ground engaging tools include plough bodies <b>22</b><i>a, </i><b>22</b><i>b, </i><b>24</b><i>a, </i><b>24</b><i>b, </i><b>26</b><i>a, </i><b>26</b><i>b, </i><b>28</b><i>a, </i><b>28</b><i>b, </i><b>30</b><i>a, </i><b>30</b><i>b </i>and plough skimmers <b>32</b><i>a, </i><b>32</b><i>b, </i><b>34</b><i>a, </i><b>34</b><i>b, </i><b>36</b><i>a, </i><b>36</b><i>b, </i><b>38</b><i>a, </i><b>38</b><i>b, </i><b>40</b><i>a, </i><b>40</b><i>b. </i>A plurality of first ground engaging tools, i.e. plough bodies <b>22</b><i>a, </i><b>24</b><i>a, </i><b>26</b><i>a, </i><b>28</b><i>a, </i><b>30</b><i>a </i>and skimmers <b>32</b><i>a, </i><b>34</b><i>a, </i><b>36</b><i>a, </i><b>38</b><i>a, </i>and <b>40</b><i>a, </i>are arranged on a first side of the main frame <b>12</b>. In a first configuration of the main frame <b>12</b>, illustrated in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref>, the plurality of first ground engaging tools are arranged below the main frame <b>12</b>.</p>
+<p id="p-0054" num="0053">A plurality of second ground engaging tools, i.e. plough bodies <b>22</b><i>b, </i><b>24</b><i>b, </i><b>26</b><i>b, </i><b>28</b><i>b, </i><b>30</b><i>b </i>and skimmers <b>32</b><i>b, </i><b>34</b><i>b, </i><b>36</b><i>b, </i><b>38</b><i>b, </i>and <b>40</b><i>b, </i>are arranged on a second side of the main frame <b>12</b>, opposite to the plurality of first ground engaging tools. In the first configuration of the main frame <b>12</b>, illustrated in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref>, the plurality of second ground engaging tools are arranged above the main frame.</p>
+<p id="p-0055" num="0054">Each of the plough bodies <b>22</b><i>a, </i><b>22</b><i>b, </i><b>24</b><i>a, </i><b>24</b><i>b, </i><b>26</b><i>a, </i><b>26</b><i>b, </i><b>28</b><i>a, </i><b>28</b><i>b, </i><b>30</b><i>a, </i><b>30</b><i>b </i>is connected to the main frame <b>12</b> by means of beams <b>42</b>, <b>44</b>, <b>46</b>, <b>48</b>, <b>50</b>. Each of the beams <b>42</b>, <b>44</b>, <b>46</b>, <b>48</b>, <b>50</b> has a substantially Y-shaped structure.</p>
+<p id="p-0056" num="0055">A first beam <b>42</b> supports a first pair of plough bodies <b>22</b><i>a, </i><b>22</b><i>b. </i>A second beam <b>44</b> supports a second pair of plough bodies <b>24</b><i>a, </i><b>24</b><i>b. </i>A third beam <b>46</b> supports a third pair of plough bodies <b>26</b><i>a, </i><b>26</b><i>b. </i>A fourth beam <b>48</b> supports a fourth pair of plough bodies <b>28</b><i>a, </i><b>28</b><i>b. </i>A fifth beam <b>50</b> supports a fifth pair of plough bodies <b>30</b><i>a, </i><b>30</b><i>b. </i></p>
+<p id="p-0057" num="0056">Each of the pairs of plough bodies <b>22</b><i>a, </i><b>22</b><i>b, </i><b>24</b><i>a, </i><b>24</b><i>b, </i><b>26</b><i>a, </i><b>26</b><i>b, </i><b>28</b><i>a, </i><b>28</b><i>b, </i><b>30</b><i>a, </i><b>30</b><i>b </i>is designed to create a furrow in the field when the plough is dragged behind or pushed by an agricultural vehicle such as a tractor. It follows that each run of the illustrated plough <b>10</b> through a field creates five adjacent furrows.</p>
+<p id="p-0058" num="0057">Turning to <figref idref="DRAWINGS">FIG. <b>9</b></figref>, a typical operation of an agricultural machinery comprising a tractor <b>7</b> and a plough <b>10</b> is described. In use, the plough <b>10</b> is drawn as an attachment (implement) behind an agricultural towing vehicle (e.g. tractor <b>7</b>). It will be appreciated that it is equivalently feasible to locate the plough <b>10</b> in front of or both in front of and behind the tractor <b>7</b>.</p>
+<p id="p-0059" num="0058"><figref idref="DRAWINGS">FIG. <b>9</b></figref> shows a schematic work area <b>1</b>, e.g. a crop field, which is divided into a main field <b>3</b> and headlands <b>5</b>,<b>6</b>. A tractor <b>7</b> draws the plough <b>10</b> across the main field <b>3</b> in generally parallel working rows. The working rows are part of the trajectory <b>8</b> of the tractor <b>7</b> and typically run in parallel with a long edge of the work area <b>1</b>. Each working row represents an individual run of the agricultural machinery across the field between headlands <b>5</b> and <b>6</b>. As will be described in more detail below, a five-furrow plough, such as the exemplary plough shown in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref> creates a total of five furrows per run.</p>
+<p id="p-0060" num="0059">At the end of each run/working row, the tractor <b>7</b> and plough <b>10</b> use the upcoming headland <b>5</b> or <b>6</b> for turning around, as indicated by trajectory <b>8</b>. It is known in the art that the soil of the headlands <b>5</b>, <b>6</b> is subject to greater levels of soil compaction as it receives more traffic per unit area than the main field <b>3</b>. In order not to disturb the soil of the headlands <b>5</b>, <b>6</b> more than necessary, it is known to lift the ground engaging tools, such as the plough bodies and the skimmers, off the ground into a headland or transfer position, just before the plough <b>10</b> reaches the headlands <b>5</b> or <b>6</b> respectively. Once the tractor <b>7</b> and the corresponding plough <b>10</b> have turned on the headland <b>5</b>, <b>6</b>, the ground engaging tools of the plough <b>10</b> are, again, lowered towards an operating position to engage the soil of the main field <b>3</b>.</p>
+<p id="p-0061" num="0060">In the illustration of <figref idref="DRAWINGS">FIG. <b>9</b></figref>, the plough <b>10</b> is working on the main field <b>3</b> and, therefore, is arranged in the operating position. As the plough <b>10</b> reaches the border between the headland <b>5</b>/<b>6</b> and the main field <b>3</b>, the plough <b>10</b> is transferred to a headland/transfer position. It follows that each working row starts with an adjustment of the plough from the transfer position into the operating position and ends with an adjustment of the plough from the operating position into the transfer position.</p>
+<p id="p-0062" num="0061">The plough <b>10</b> shown in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref> is of the fully-mounted type. In fully-mounted ploughs, the weight of the plough is carried exclusively by the tractor when the plough is in its transfer position (on the headlands). In other words, the plough is then exclusively supported by the tractor <b>7</b> via headstock <b>14</b> and may be lifted off the ground with a lift cylinder of a tractor linkage.</p>
+<p id="p-0063" num="0062">During the turning movement on the headlands, the plough <b>10</b> is also reversed. That is, the main frame <b>12</b> is rotated by <b>180</b> degrees with respect to the headstock <b>14</b> to move the plough from a first configuration to a second configuration. In its first configuration shown in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref>, the plough <b>10</b> is set up such that the plurality of first ground engaging tools, i.e. plough bodies <b>22</b><i>a, </i><b>24</b><i>a, </i><b>26</b><i>a, </i><b>28</b><i>a, </i>and <b>30</b><i>a </i>and skimmers <b>32</b><i>a, </i><b>34</b><i>a, </i><b>36</b><i>a, </i><b>38</b><i>a, </i><b>40</b><i>a, </i>of each of the pairs are in contact with the soil. This first configuration is shown in <figref idref="DRAWINGS">FIG. <b>9</b></figref> and sometimes also referred to as the &#x201c;left side configuration&#x201d;, since most of the plough bodies are arranged to the left of tractor <b>7</b>. In its second configuration (not illustrated), the plough <b>10</b> is set up such that the plurality of second ground engaging tools, i.e. plough bodies <b>22</b><i>b, </i><b>24</b><i>b, </i><b>26</b><i>b, </i><b>28</b><i>b, </i><b>30</b><i>b </i>and skimmers <b>32</b><i>b, </i><b>34</b><i>b, </i><b>36</b><i>b, </i><b>38</b><i>b, </i><b>40</b><i>b, </i>are in contact with the soil. This second configuration is achieved after rotating the main frame by 180 degrees, such that the majority of plough bodies are then located to the right of the tractor (not shown). The second configuration is, therefore, also sometimes referred to as the &#x201c;right side configuration&#x201d;.</p>
+<p id="p-0064" num="0063">Tilling the field with the plough <b>10</b> in this first configuration provides a first furrow created by the first plough body <b>22</b><i>a, </i>a second furrow created by the second plough body <b>24</b><i>a, </i>a third furrow created by the third plough body <b>26</b><i>a, </i>a fourth furrow created by the fourth plough body <b>28</b><i>a, </i>and a fifth furrow created by the fifth plough body <b>30</b><i>a. </i>A furrow width is determined by the lateral distance d between the plough bodies <b>22</b><i>a, </i><b>22</b><i>b, </i><b>24</b><i>a, </i><b>24</b><i>b, </i><b>26</b><i>a, </i><b>26</b><i>b, </i><b>28</b><i>a, </i><b>28</b><i>b, </i><b>30</b><i>a, </i><b>30</b><i>b, </i>as illustrated in <figref idref="DRAWINGS">FIG. <b>1</b>C</figref>.</p>
+<p id="p-0065" num="0064">As the reversible plough <b>10</b> reaches the end of the first run, the main frame <b>12</b> is rotated by 180 degrees (reversed) with respect to the headstock <b>14</b>. A turning cylinder (not shown), attached to the headstock <b>14</b> may be used to rotate (reverse) the plough <b>10</b>. During rotation of the main frame, the first plurality of plough bodies, e.g. <b>22</b><i>a, </i><b>24</b><i>a, </i><b>26</b><i>a, </i><b>28</b><i>a, </i><b>30</b><i>a, </i>are transferred to the top of the plough <b>10</b>. At the same time, the second plurality of plough bodies e.g. <b>22</b><i>b, </i><b>24</b><i>b, </i><b>26</b><i>b, </i><b>28</b><i>b, </i><b>30</b><i>b, </i>which were not in use in the previous run, is then transferred to the lower end of the plough <b>10</b> and will be submerged in the soil during the next run. The reversible plough is then in its second configuration (not shown).</p>
+<p id="p-0066" num="0065">Executing a second run of the field with the plough <b>10</b> in this second configuration provides a first furrow created by the sixth plough body <b>22</b><i>b, </i>a second furrow created by the seventh plough body <b>24</b><i>b, </i>a third furrow created by the eighth plough body <b>26</b><i>b, </i>a fourth furrow created by the ninth plough body <b>28</b><i>b, </i>and a fifth furrow created by the tenth plough body <b>30</b><i>b. </i></p>
+<p id="p-0067" num="0066">Reversing the plough <b>10</b> between consecutive runs has the advantage that the plough bodies <b>22</b><i>a, </i><b>22</b><i>b, </i><b>24</b><i>a, </i><b>24</b><i>b, </i><b>26</b><i>a, </i><b>26</b><i>b, </i><b>28</b><i>a, </i><b>28</b><i>b, </i><b>30</b><i>a, </i><b>30</b><i>b </i>that engage the soil always face the same side edge of the main field <b>3</b>, irrespective of the tractor's orientation.</p>
+<p id="p-0068" num="0067">In both configurations of the plough <b>10</b> the main frame <b>12</b> is supported by an implement wheel <b>20</b>. The implement wheel <b>20</b> is arranged at the back end <b>18</b> of the plough <b>10</b>. Since the plough bodies <b>22</b><i>a, </i><b>22</b><i>b, </i><b>24</b><i>a, </i><b>24</b><i>b, </i><b>26</b><i>a, </i><b>26</b><i>b, </i><b>28</b><i>a, </i><b>28</b><i>b, </i><b>30</b><i>a, </i><b>30</b><i>b </i>and the skimmers <b>32</b><i>a, </i><b>32</b><i>b, </i><b>34</b><i>a, </i><b>34</b><i>b, </i><b>36</b><i>a, </i><b>36</b><i>b, </i><b>38</b><i>a, </i><b>38</b><i>b, </i><b>40</b><i>a, </i><b>40</b><i>b </i>are generally fixed to the main frame via beams <b>42</b>, <b>44</b> <b>46</b>, <b>48</b> and <b>50</b>, there is no possibility of adjusting the working depth of said ground engaging tools without changing the ground clearance of the main frame <b>12</b>. To this end, the plough <b>10</b> shown in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref> includes implement wheel <b>20</b>, which acts as a depth wheel to adjust the ground clearance of the main frame <b>12</b>. A linkage provided between the implement wheel <b>20</b> and the main frame <b>12</b> allows the operator to lift or lower the main frame <b>12</b> with respect to a ground surface <b>80</b>. Since the position of the plurality of first and second ground engaging tools is fixed with respect to the main frame <b>12</b>, any change in the main frame's ground clearance will also affect the working depth of the plurality first and second ground engaging tools. In particular, if the main frame <b>12</b> is lowered by adjusting the link between implement wheel <b>20</b> and the main frame <b>12</b>, then the working depth of the plurality of first ground engaging tools shown in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref> is increased, i.e. the plurality of first ground engaging tools are lowered further into the soil. If, on the other hand, the main frame <b>12</b> is lifted, then the working depth of the plurality of first ground engaging tools is decreased, i.e. the plurality of first ground engagement tools are pulled out of the soil.</p>
+<p id="p-0069" num="0068">Turning to <figref idref="DRAWINGS">FIG. <b>2</b></figref>, there is shown an alternative way of changing the working depth of the ground engaging tools, according to an embodiment of the present disclosure. <figref idref="DRAWINGS">FIG. <b>2</b></figref> is a schematic representation of the connection between a main frame <b>112</b> and a first ground engaging tool <b>122</b><i>a. </i>It should be understood that the plough implement of the present disclosure may have a plurality of first ground engaging tools and a plurality of second ground engaging tools similar to plough <b>10</b> shown in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref>. <figref idref="DRAWINGS">FIG. <b>2</b></figref> only shows the connection between the main frame <b>112</b> and one of the plurality of first ground engaging tools. The first ground engaging tool <b>122</b><i>a </i>is a plough body comprising a mould board <b>124</b> and a share <b>126</b>. The first ground engaging tool <b>122</b><i>a </i>is connected to the main frame <b>112</b> via a four-bar-linkage <b>114</b>. The four-bar-linkage <b>114</b> is a parallelogram linkage. The four-bar-linkage <b>114</b> includes a base, which is represented by the main frame <b>112</b>, a first pivotable link <b>116</b>, a second pivotable link <b>118</b>, and a coupler link <b>120</b>. The first pivotable link <b>116</b> is pivotably connected to the main frame <b>112</b> at a first end <b>130</b> and pivotably connected to the coupler link <b>120</b> at an opposite, second end <b>132</b>. The second pivotable link is connected to the main frame at a first end <b>134</b> and connected to the coupler link <b>120</b> at an opposite, second end <b>136</b>.</p>
+<p id="p-0070" num="0069">The first pivotable link <b>116</b> is connected to the main frame <b>112</b> at its first end <b>130</b> via pivot <b>138</b>. At its opposite, second end <b>132</b> the first pivotable link <b>116</b> is connected to the coupler link <b>120</b> via pivot <b>140</b>. The second pivotable link <b>118</b> is connected to the main frame at its first end <b>134</b> via pivot <b>142</b>. At its opposite, second end <b>136</b>, the second pivotable link <b>118</b> is connected to the coupler link <b>120</b> via pivot <b>144</b>.</p>
+<p id="p-0071" num="0070">The pivotable links <b>116</b> and <b>118</b> are identical in length, i.e. the distance between pivots <b>138</b> and <b>140</b> of the first pivotable link <b>116</b> is identical to the distance between pivots <b>142</b> and <b>140</b> of the second pivotable link <b>118</b>.</p>
+<p id="p-0072" num="0071">The distance between the first pivot <b>138</b> of the first pivotable link <b>116</b> and the first pivot <b>142</b> of the second pivotable link <b>118</b> is identical to the distance between the second pivot <b>140</b> of the first pivotable link <b>116</b> and the second pivot <b>144</b> of the second pivotable link <b>118</b>. The first and second pivotable links <b>116</b>, <b>118</b> are arranged in parallel to each other. The coupler link <b>120</b> and the base (represented by part of the main frame <b>112</b> between pivots <b>138</b> and <b>142</b>) are arranged in parallel.</p>
+<p id="p-0073" num="0072">The first ground engaging tool <b>122</b><i>a </i>(plough body) is connected to the coupler link <b>120</b>. In this example, the first ground engaging tool <b>122</b><i>a </i>may be removably connected to the coupler link <b>120</b> via fastening members <b>146</b>. Of course, any other fastening method may also be feasible to connect the first ground engaging tool <b>122</b><i>a </i>to the coupler link <b>120</b>.</p>
+<p id="p-0074" num="0073">It will be understood that whenever the four-bar-linkage <b>114</b> is moved, the first and second pivotable links <b>116</b>, <b>118</b> remain parallel. Similarly, the coupler link <b>120</b> will always remain parallel to the base bar, i.e. to the main frame <b>112</b>, during movement. A range of movement is schematically shown in <figref idref="DRAWINGS">FIG. <b>2</b></figref> with arrow A. Arrow A shows the possible trajectory of the second pivot <b>144</b> during movement of the four-bar-linkage <b>114</b>. Of course, the second pivot <b>140</b> of the first pivotable link <b>116</b> has a corresponding range of movement. The pivot <b>144</b> may move between a first end position indicated by line L<b>1</b> and a second end position indicated by line L<b>2</b>. As pivot <b>144</b> moves between its first end position and second end position along arrow A, so does pivot <b>140</b> of the first pivotable link <b>116</b>. Consequently, the coupler link <b>120</b> will undergo the same motion. It follows that in the first end position of the second pivotable link <b>118</b>, indicated by line L<b>1</b>, the coupler link <b>120</b> is at its lowest point, i.e. at a maximum distance from main frame <b>112</b>. In the second end position of the second pivotable link <b>118</b>, indicated by line L<b>2</b>, the coupler link <b>120</b> is at its top end, i.e. closest to main frame <b>112</b>. Accordingly, the working depth of the ground engaging tool <b>122</b><i>a, </i>which is connected to coupler link <b>120</b>, changes as the first and second pivotable links <b>116</b>, <b>118</b> pivot about their respective first pivots <b>138</b>, <b>142</b>. Accordingly, the first ground engaging tool <b>122</b><i>a </i>also moves between a first position, in which a maximum working depth is set, i.e. when the second pivotable link <b>118</b> is aligned with line L<b>1</b>, and a second position, in which a minimum working depth is set, i.e. when the second pivotable link <b>118</b> is aligned with line L<b>2</b>. It follows that the working depth of the first ground engaging tool <b>122</b><i>a </i>shown in the embodiment of <figref idref="DRAWINGS">FIG. <b>2</b></figref> is individually adjustable, irrespective of the ground clearance of the main frame <b>112</b>. Accordingly, there may be no need for an adjustable implement wheel (depth wheel) with the plough implement of the present disclosure. Rather, the distance between the implement wheel and the main frame may be fixed, such that the ground clearance of the main frame <b>112</b> remains stable.</p>
+<p id="p-0075" num="0074">Of course, other ground engaging tools may be connected to the main frame in the same or similar ways as the first ground engaging tool <b>122</b><i>a. </i>It follows that the working depth of other ground engaging tools, such as the remaining plough bodies, may also be adjusted individually, irrespective of the ground clearance of the main frame <b>112</b>. Moreover, each of the ground engaging tools may be adjustable independently of each other. For example, each of the plurality of first ground engaging tools (i.e. ground engaging tools on the first side of the of the main frame <b>112</b>) may be independently adjustable to have individual distances from the main frame that may be different to a main frame distance of an adjacent ground engaging tool. This arrangement is particularly useful in uneven field conditions. On uneven ground surface <b>580</b> is schematically represented in <figref idref="DRAWINGS">FIG. <b>10</b></figref>, for example. <figref idref="DRAWINGS">FIG. <b>10</b></figref> shows a plough implement <b>500</b> with fixed plough bodies <b>522</b><i>a, </i><b>524</b><i>a, </i><b>526</b><i>a, </i><b>528</b><i>a, </i><b>530</b><i>a, </i><b>532</b><i>a, </i><b>534</b><i>a, </i><b>536</b><i>a, </i><b>538</b><i>a, </i><b>522</b><i>b, </i><b>524</b><i>b, </i><b>526</b><i>b, </i><b>528</b><i>b, </i><b>530</b><i>b, </i><b>532</b><i>b, </i><b>534</b><i>b, </i><b>536</b><i>b, </i><b>538</b><i>b, </i>which are not moveable with respect to the frame, similar to the plough implement <b>10</b> of <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref>. An implement wheel <b>520</b> runs on an uneven ground surface <b>580</b> and defines the ground clearance of a main frame <b>512</b>.</p>
+<p id="p-0076" num="0075">It will be appreciated that, as the plough implement <b>500</b> is moved across the field with uneven ground surface <b>580</b>, some of the plough bodies, such as plough bodies <b>524</b><i>a, </i><b>526</b><i>a, </i><b>528</b><i>a, </i><b>530</b><i>a, </i>and <b>532</b><i>a </i>at least partially penetrate the soil, whereas other plough bodies, such as plough bodies <b>522</b><i>a, </i><b>534</b><i>a, </i><b>536</b><i>a, </i>and <b>538</b><i>a </i>are elevated above the soil and thus do not penetrate into the soil, causing an uneven plough depth, and in this case discontinuous furrows. Independently adjustable ground engaging tools, such as the one described in <figref idref="DRAWINGS">FIG. <b>2</b></figref>, will allow for the working depth to be adjusted to the ground conditions to achieve homogenous furrows. The ground conditions may be detected with a sensor on the implement and/or on the agricultural (towing) vehicle.</p>
+<p id="p-0077" num="0076">In an alternative embodiment, some of the ground engaging tools may be fixed with respect to the main frame <b>112</b>, similar to the solution shown in <figref idref="DRAWINGS">FIGS. <b>1</b>A to <b>1</b>C</figref>, whereas other ground engaging tools may be moveable with respect to the main frame, for example with a four-bar-linkage, such as the one shown in <figref idref="DRAWINGS">FIG. <b>2</b></figref>.</p>
+<p id="p-0078" num="0077">Turning back to <figref idref="DRAWINGS">FIG. <b>2</b></figref>, an actuator <b>110</b> is provided to move the four-bar-linkage between the first and second end positions. The actuator <b>110</b> and the four-bar-linkage <b>114</b> are part of a depth adjustment apparatus that is used to move the first ground engaging tool <b>122</b><i>a </i>with respect to the main frame <b>112</b>. The actuator <b>110</b> according to the embodiment of <figref idref="DRAWINGS">FIG. <b>2</b></figref> is a hydraulic cylinder. The chambers of the hydraulic cylinder may be connected to an existing hydraulic system of a corresponding towing vehicle (not shown), which will supply pressurised hydraulic fluid to cause movement of the four-bar-linkage <b>114</b>. A first end <b>150</b> of the actuator <b>110</b> is connected to the main frame <b>112</b>. A second end <b>152</b> of the actuator <b>110</b> is connected to the coupler link <b>120</b> of the four-bar-linkage <b>114</b>. Accordingly, in the embodiment of <figref idref="DRAWINGS">FIG. <b>2</b></figref>, the second pivotable link <b>118</b> will be moved towards its first end position indicated by line L<b>1</b> when the hydraulic cylinder is retracted. Similarly, the second pivotable link <b>118</b> will be moved in the opposite direction, towards its second end position indicated by line L<b>2</b>, when the hydraulic cylinder is extended. Mechanical end stops may be provided to limit movement of the four-bar-linkage <b>114</b> and potentially lock four-bar-linkage <b>114</b> into its first and/or second end position. Of course, the plough can also be used to work a field when the four-bar linkage <b>114</b> is in an intermediate position, between the first end position and the second end position. A latch may be provided to lock the four bar linkage into any desired, intermediate position between the first and second end positions.</p>
+<p id="p-0079" num="0078">In view of the above, an extension of the actuator <b>110</b> in <figref idref="DRAWINGS">FIG. <b>2</b></figref> will cause the ground engaging tool <b>128</b> to be pushed out of the ground, i.e. a decrease in working depth. Similarly, a retraction of actuator <b>110</b> will cause the first ground engaging tool <b>122</b><i>a </i>to be pulled further into the soil, thereby increasing the working depth.</p>
+<p id="p-0080" num="0079"><figref idref="DRAWINGS">FIG. <b>2</b></figref> further shows an orientation of the first ground engaging tool <b>122</b><i>a </i>during ploughing. In the example of <figref idref="DRAWINGS">FIG. <b>2</b></figref>, the first ground engaging tool <b>122</b><i>a </i>is a plough body with a share <b>126</b>, which is oriented in a horizontal direction indicated by axis B. Due to the layout of the four-bar-linkage <b>114</b>, this horizontal orientation will not change as the working depth of the first ground engaging tool <b>122</b><i>a </i>is adjusted. In other words, the depth adjustment apparatus of <figref idref="DRAWINGS">FIG. <b>2</b></figref> will act to maintain the orientation of the first ground engaging tool <b>122</b><i>a, </i>since coupling link <b>120</b> will maintain its orientation with respect to the main frame <b>112</b>.</p>
+<p id="p-0081" num="0080">Another embodiment is schematically represented in <figref idref="DRAWINGS">FIG. <b>3</b></figref>. Parts of the embodiment in <figref idref="DRAWINGS">FIG. <b>3</b></figref> that have an identical functionality to parts of the embodiment shown in <figref idref="DRAWINGS">FIG. <b>2</b></figref> are labelled with identical reference signs. In the embodiment of <figref idref="DRAWINGS">FIG. <b>3</b></figref>, two ground engaging tools, a first ground engaging tool <b>122</b><i>a </i>and a second ground engaging tool <b>124</b><i>a </i>of the plurality of first ground engaging tools are connected to the same coupler link <b>120</b>. The four-bar-linkage <b>114</b> of <figref idref="DRAWINGS">FIG. <b>2</b></figref> has been replaced by a five-bar-linkage, which is arranged as two parallelogram linkages. A first parallelogram linkage is formed by the first pivotable link <b>116</b>, the second pivotable link <b>118</b>, the coupler link <b>120</b> and the main frame <b>112</b>. A second parallelogram linkage is formed by a third pivotable link <b>160</b>, the first pivotable link <b>116</b>, the coupling link <b>120</b> and the main frame <b>112</b>. Both the first and second ground engaging tools <b>122</b><i>a, </i><b>124</b><i>a </i>move together with coupling link <b>120</b> in a similar fashion to coupling link <b>120</b> of <figref idref="DRAWINGS">FIG. <b>2</b></figref>. Accordingly, the depth adjustment of the first and second ground engaging tools <b>122</b><i>a, </i><b>124</b><i>a </i>is synchronised via coupling link <b>120</b>. Of course, any number of ground engaging tools may be connected to the coupling member <b>120</b> such that the working depth of several or all ground engaging tools (on the same side of the main frame <b>112</b>) may be adjusted at the same time. Actuation may then be achieved by a single actuator <b>110</b>.</p>
+<p id="p-0082" num="0081"><figref idref="DRAWINGS">FIG. <b>4</b></figref> shows another embodiment of the present disclosure, in which, compared to the embodiment of <figref idref="DRAWINGS">FIG. <b>2</b></figref>, the actuator <b>110</b>, which is constructed as a hydraulic cylinder, has been replaced by an actuator <b>210</b> that is an electric motor. Actuator <b>210</b> is an electric motor which is connected between the main frame <b>112</b> and the first pivot <b>142</b> of the second pivotable link <b>118</b> of the four-bar-linkage <b>114</b>. Of course, the actuator <b>210</b> (or an additional actuator) may also be connected to the first pivot <b>138</b> of the first pivotable link <b>116</b>. The actuator <b>210</b> may be used to pivot the four-bar-linkage <b>114</b> between its first and second end positions, or any position in between, to adjust the working depth of the first ground engaging tool <b>122</b><i>a. </i>The four-bar-linkage <b>114</b> and the actuator <b>210</b> (electric motor) are part of a depth adjustment apparatus for moving the first ground engaging tool <b>122</b><i>a </i>with respect to main frame <b>112</b>.</p>
+<p id="p-0083" num="0082">Turning to <figref idref="DRAWINGS">FIG. <b>5</b></figref>, there is shown another depth adjustment apparatus according to another embodiment of the plough implement. The depth adjustment apparatus of <figref idref="DRAWINGS">FIG. <b>5</b></figref> includes a first actuator <b>310</b> and a second actuator <b>320</b>. A first ground engaging tool <b>322</b><i>a </i>is connected to the main frame <b>112</b> via a pivotable link <b>316</b>. The pivotable link has a first pivot <b>318</b> connecting the pivotable link <b>316</b> to the main frame <b>112</b>. At an opposite, second end the pivotable link <b>316</b> comprises a second pivot (not shown) connecting the pivotable link <b>316</b> to the first ground engaging tool <b>322</b><i>a. </i>Accordingly, the ground engaging tool <b>322</b><i>a </i>may pivot together with pivotable link <b>316</b> about main frame <b>112</b> to adjust the working depth of the first ground engaging tool <b>322</b><i>a. </i></p>
+<p id="p-0084" num="0083">In order to move the pivotable link <b>316</b>, a first actuator <b>310</b> is provided. The first actuator <b>310</b> has a first pivot <b>314</b> connected to the main frame <b>112</b> and a second pivot (not shown) connected to the pivotable link <b>316</b>. The first actuator <b>310</b> is a hydraulic cylinder. The hydraulic cylinder may pivot the pivotable link <b>316</b> and the first ground engaging tool <b>322</b><i>a </i>between first and second positions explained with respect to <figref idref="DRAWINGS">FIG. <b>2</b></figref>.</p>
+<p id="p-0085" num="0084">A second actuator <b>320</b> is provided between the pivotable link <b>316</b> and the first ground engaging tool <b>322</b><i>a. </i>The second actuator <b>320</b> is a hydraulic cylinder. A first end <b>322</b> of the second actuator <b>320</b> is pivotably connected to the pivotable link <b>316</b>. An opposite, second end <b>324</b> is pivotably connected to the first ground engaging tool <b>322</b><i>a </i>via a pivot. The depth adjustment apparatus of <figref idref="DRAWINGS">FIG. <b>5</b></figref> comprises the first actuator <b>310</b>, the second actuator <b>320</b> and pivotable link <b>316</b>.</p>
+<p id="p-0086" num="0085">The second actuator <b>320</b> may be used to maintain the orientation of the first ground engaging tool <b>322</b><i>a </i>during depth adjustment. It will be appreciated that, if the pivotable link <b>316</b> and the first ground engaging tool <b>322</b><i>a </i>are pivoted together by means of actuator <b>310</b>, the orientation of the first ground engaging tool <b>322</b><i>a </i>may change during the pivoting movement. To compensate for such a change of orientation, the second actuator <b>320</b> may be extended or retracted. This will compensate by realigning the first ground engaging tool with the desired orientation, such as the horizontal direction indicated by line B in <figref idref="DRAWINGS">FIG. <b>5</b></figref>.</p>
+<p id="p-0087" num="0086">For example, if the first actuator <b>310</b> is retracted to pivot the pivotable link <b>316</b> towards line L<b>1</b>, the working depth is increased and the orientation of the share <b>326</b> of the first ground engaging tool <b>322</b><i>a </i>will change orientation (e.g. the lift up), as indicated by line C. To counteract this change of orientation of the first ground engaging tool <b>322</b><i>a, </i>the second actuator <b>320</b> may be retracted. Retraction of the second actuator <b>320</b> will cause the share <b>326</b> of the first ground engaging tool <b>322</b><i>a </i>to be lowered to maintain its horizontal orientation per line B.</p>
+<p id="p-0088" num="0087">The first and second actuators <b>310</b>, <b>320</b> may be connected to a control unit (not shown), which may automatically synchronise actuation of both actuators <b>310</b>, <b>320</b> in order to keep the first ground engaging tool <b>322</b><i>a </i>(here a plough body) in its desired orientation, when the working depth is adjusted.</p>
+<p id="p-0089" num="0088">With reference to <figref idref="DRAWINGS">FIG. <b>6</b></figref>, there is shown a depth adjustment apparatus according to another embodiment of the present disclosure. The depth adjustment apparatus of <figref idref="DRAWINGS">FIG. <b>6</b></figref> is configured to move a ground engaging tool <b>422</b><i>a, </i>e.g. a plough body, in a translational direction along arrow E. In other words, rather than pivoting about the main frame, as described with reference to <figref idref="DRAWINGS">FIGS. <b>2</b> to <b>5</b></figref>, the ground engaging tool <b>422</b><i>a </i>of <figref idref="DRAWINGS">FIG. <b>6</b></figref> may be moved in a translational fashion at an angle with respect to the main frame <b>112</b> to adjust the working depth of the ground engaging tool <b>422</b><i>a. </i></p>
+<p id="p-0090" num="0089">The depth adjustment apparatus comprises a guide bush <b>410</b> and a sliding member <b>412</b>. The guide bush <b>410</b> is fixed to the main frame <b>112</b>. In this particular embodiment, the guide bush <b>410</b> is attached to one of the legs of a Y-shaped beam <b>442</b>, which is in turn attached to the main frame <b>112</b>. It should be understood, however, that the guide bush <b>410</b> could also be directly attached to the main frame <b>112</b> without the need for a separate beam <b>442</b>.</p>
+<p id="p-0091" num="0090">The sliding member <b>412</b> is received within the guide bush <b>410</b>. The sliding member <b>412</b> is movable with respect to the guide bush <b>410</b> along arrow E. One end of the sliding member <b>412</b> is attached to the ground engaging tool <b>422</b><i>a. </i>An opposite end of the sliding member is movable within the guide bush <b>410</b>. Accordingly, if sliding member <b>412</b> moves along arrow E, so does the ground engaging tool <b>422</b><i>a, </i>resulting in a depth adjustment. It will be appreciated that, during the depth adjustment, the ground engaging tool <b>422</b><i>a </i>maintains its orientation parallel to line B.</p>
+<p id="p-0092" num="0091">The depth adjustment apparatus further comprises an actuator <b>414</b>, particularly a hydraulic cylinder. The actuator <b>414</b> has a first end <b>416</b> connected to the guide bush <b>410</b> and an opposite, second end (not shown) connected to the ground engaging tool <b>422</b><i>a. </i>Accordingly, extending the actuator <b>414</b> will increase the working depth of the ground engaging tool <b>422</b><i>a. </i>Similarly, retracting the actuator <b>414</b> will reduce the working depth of the ground engaging tool.</p>
+<p id="p-0093" num="0092"><figref idref="DRAWINGS">FIG. <b>7</b></figref> shows an embodiment of the present disclosure, in which the plough implement comprises an obstacle sensor <b>502</b>. The depth adjustment apparatus of <figref idref="DRAWINGS">FIG. <b>7</b></figref> is substantially identical to the depth adjustment apparatus described with respect to <figref idref="DRAWINGS">FIG. <b>2</b></figref>. Accordingly, corresponding parts have been labelled with identical reference signs. The obstacle sensor <b>502</b> is configured to detect any obstacle that may be in the path of the first ground engaging tool <b>122</b><i>a </i>during use of the plough implement. It will be appreciated that similar obstacle sensors may also be provided in any of the embodiments shown in <figref idref="DRAWINGS">FIGS. <b>2</b> to <b>6</b></figref>. In the example <figref idref="DRAWINGS">FIG. <b>7</b></figref>, an exemplary obstacle <b>504</b> may be a rock covered in the soil under the ground surface <b>80</b>. Once an obstacle <b>504</b> is detected by the obstacle sensor <b>502</b>, a feedback signal is sent to a control unit <b>506</b>, which may be connected to the hydraulic system <b>508</b> to activate the actuator <b>110</b>.</p>
+<p id="p-0094" num="0093">In particular, if an obstacle <b>504</b> is detected in front of the first ground engaging tool <b>122</b><i>a, </i>the control unit <b>506</b> may send a signal to the hydraulic system <b>508</b> to extend actuator <b>110</b>, thereby lifting the first ground engaging tool <b>122</b><i>a </i>out of the soil in the direction of arrow D to avoid a collision of the ground engaging tool <b>122</b><i>a </i>with obstacle <b>504</b>. In this embodiment, the first ground engaging tool <b>122</b><i>a </i>will be pivoted up and away from the obstacle <b>504</b>, when extending the actuator <b>110</b>.</p>
+<p id="p-0095" num="0094">The obstacle sensor <b>502</b> is arranged in front of the first ground engaging tool in a working direction of the plough implement. One obstacle sensor <b>502</b> may be used to scan the entire width of the entire plough implement, such that control unit <b>506</b> may be able to actively raise each of the ground engaging tools that may be affected by a particular obstacle. To this end, control unit <b>506</b> may have a database including information about the position of each of the ground engaging tools with respect to the obstacle sensor <b>502</b>.</p>
+<p id="p-0096" num="0095">The obstacle sensor <b>502</b> in the embodiment of <figref idref="DRAWINGS">FIG. <b>7</b></figref> is a contactless sensor that may detect obstacles by way of radiation. Alternatively, it is of course possible to utilise contact sensors that penetrate into the soil and detect obstacles, such as stones, of a size that may cause damage to the ground engaging tools.</p>
+<p id="p-0097" num="0096">In another, non-represented variation of the stone-trip arrangement shown in <figref idref="DRAWINGS">FIG. <b>7</b></figref>, no obstacle detector may be required. Rather, obstacles may be detected upon impact of the ground engaging tools with the obstacles. Such impact will create a pressure increase within actuator <b>110</b> shown in <figref idref="DRAWINGS">FIG. <b>7</b></figref> that may be measured within hydraulic system <b>508</b> and fed back to control unit <b>506</b>. Control unit <b>506</b> may use this signal to either actively pull the ground engaging tools out of the ground via actuator <b>110</b> or reduce the flow resistance of hydraulic system <b>508</b> such that actuator <b>110</b> may retract more easily due to the reactive force created by the impact between the ground engaging tool and the obstacle.</p>
+<p id="p-0098" num="0097">In view of the above, the plough implement of the present disclosure may be able to decrease the working depth of the ground engaging tool of one or more ground engaging tools pro-actively or passively to avoid collision with obstacles or prevent damage during collision.</p>
+<p id="p-0099" num="0098">A method <b>300</b> of adjusting the working depth in accordance with the stone-trip embodiment shown in <figref idref="DRAWINGS">FIG. <b>7</b></figref> is described in <figref idref="DRAWINGS">FIG. <b>8</b></figref>. <figref idref="DRAWINGS">FIG. <b>8</b></figref> shows a flow-chart of the method for predicting or reacting to obstacles such as stones. In a first step S<b>302</b> the presence of an obstacle is detected. This step may include steps for locating obstacles within the soil and identifying whether said obstacle will be in the working path of any of the ground engaging tools of the plough implement. To this end, a control unit may have access to a database providing the control unit with information as to the position of each of the ground engaging tools with respect to a particular obstacle. Alternatively, detecting the obstacle may also be achieved by measuring the impact of corresponding ground engaging tools with an obstacle, in which case the control unit knows which of the ground engaging tools is affected. Once a position of the obstacle and the relevant ground engaging tools are determined, the working depth of the affected ground engaging tools is decreased in a second step S<b>304</b>. In other words, the ground engaging tools that are about to collide with an obstacle or have already collided with an obstacle may be pulled out of the soil to avoid damage/further damage to the ground engaging tools.</p>
+<p id="p-0100" num="0099">In an optional step S<b>306</b>, the obstacle sensor may be used to detect whether or not the obstacle has been passed. If the obstacle has not yet been passed, the sensor may wait for a predetermined amount of time until a further measurement is taken. If the obstacle has been passed, the working depth of the relevant ground engaging tools may yet again be increased to its level before the obstacle was detected, in a further step S<b>310</b>. It should be understood that, instead of steps S<b>306</b> and S<b>308</b>, the control unit may be set up to wait for a predetermined amount of time before lowering the ground engaging tools (i.e. increasing the working depth) again. This predetermined amount of time may be based on previous experience of the operator or may be set after the size of the obstacle is detected by an obstacle sensor enabling the control unit to calculate a time required to pass said obstacle.</p>
+<p id="p-0101" num="0100">Although this detailed description referred to plough bodies and skimmers, it should be appreciated that the present disclosure is not limited to such ground engaging tools. Rather, any form of ground engaging tool of a plough implement may be used in connection with the depth adjustment apparatus described above. Similarly, the number and arrangement of the ground engaging tools shown in the Figures should not be understood to be limiting to the scope of this disclosure.</p>
+<p id="p-0102" num="0101">The listing or discussion of an apparently prior-published document in this specification should not necessarily be taken as an acknowledgement that the document is part of the state of the art or is common general knowledge.</p>
+<p id="p-0103" num="0102">Preferences and options for a given aspect, feature or parameter of the invention should, unless the context indicates otherwise, be regarded as having been disclosed in combination with any and all preferences and options for all other aspects, features and parameters of the disclosure.</p>
+<?detailed-description description="Detailed Description" end="tail"?>
+</description>
+<claims id="claims">
+<claim id="CLM-01-15" num="01-15">
+<claim-text><b>1</b>-<b>15</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text><b>16</b>. A plough implement comprising a main frame and a plurality of ground engaging tools, wherein the main frame supports the plurality of ground engaging tools, and the plough implement comprises a depth adjustment apparatus configured to move at least one ground engaging tool of the plurality of ground engaging tools with respect to the main frame to enable adjustment of a working depth of the at least one ground engaging tool;
+<claim-text>wherein the plough implement comprises a control unit configured to control the depth adjustment apparatus, and the control unit is configured to decrease the working depth of the at least one ground engaging tool if an obstacle collision is predicted.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text><b>17</b>. The plough implement of <claim-ref idref="CLM-00016">claim 16</claim-ref>, comprising an obstacle sensor configured to detect an obstacle, the obstacle sensor being arranged in front of the at least one ground engaging tool with respect to a direction of travel.</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text><b>18</b>. The plough implement of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein the obstacle sensor comprises a contactless sensor configured to detect the obstacle by way of radiation.</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text><b>19</b>. The plough implement of <claim-ref idref="CLM-00017">claim 17</claim-ref>, wherein the obstacle sensor is configured to detect whether the at least one ground engaging tool has passed the obstacle, and the control unit is configured to increase the working depth of the at least one ground engaging tool in response to the at least one ground engaging tool passing the obstacle.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text><b>20</b>. The plough implement of <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein the control unit is configured to increase the working depth of the at least one ground engaging tool an amount of time after the obstacle collision is predicted.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text><b>21</b>. The plough implement of <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein the plough implement is a reversible plough.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text><b>22</b>. The plough implement of <claim-ref idref="CLM-00016">claim 16</claim-ref>, wherein the depth adjustment apparatus comprises a four-link parallelogram linkage connecting the main frame to the at least one ground engaging tool.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text><b>23</b>. A plough implement, comprising:
+<claim-text>a control unit configured to control at least one depth adjustment apparatus, wherein the at least one depth adjustment apparatus is configured to move at least one respective ground engaging tool of a plurality of ground engaging tools with respect to a main frame of the plough implement to enable adjustment of a respective working depth of the at least one respective ground engaging tool, and the control unit is configured to decrease the respective working depth of the at least one respective ground engaging tool in response to prediction of an obstacle collision.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text><b>24</b>. The plough implement of <claim-ref idref="CLM-00023">claim 23</claim-ref>, comprising an obstacle sensor configured to detect an obstacle, wherein the obstacle sensor is configured to be arranged in front of the at least one respective ground engaging tool with respect to a direction of travel.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text><b>25</b>. The plough implement of <claim-ref idref="CLM-00024">claim 24</claim-ref>, wherein the obstacle sensor comprises a contactless sensor configured to detect the obstacle by way of radiation.</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text><b>26</b>. The plough implement of <claim-ref idref="CLM-00024">claim 24</claim-ref>, wherein the at least one depth adjustment apparatus comprises a plurality of depth adjustment apparatuses, the obstacle sensor is configured to output obstacle data indicative of a size and a position of the obstacle, the control unit is configured to identify each ground engaging tool of the at least one respective ground engaging tool of the plurality of ground engaging tools that is predicted to encounter the obstacle, and the controller is configured to decrease the respective working depth of each ground engaging tool predicted to encounter the obstacle.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text><b>27</b>. The plough implement of <claim-ref idref="CLM-00024">claim 24</claim-ref>, wherein the obstacle sensor is configured to detect whether the at least one respective ground engaging tool has passed the obstacle, and the control unit is configured to increase the working depth of the at least one respective ground engaging tool in response to the at least one respective ground engaging tool passing the obstacle.</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text><b>28</b>. The plough implement of <claim-ref idref="CLM-00023">claim 23</claim-ref>, wherein the control unit is configured to increase the working depth of the at least one respective ground engaging tool an amount of time after the obstacle collision is predicted.</claim-text>
+</claim>
+<claim id="CLM-00029" num="00029">
+<claim-text><b>29</b>. The plough implement of <claim-ref idref="CLM-00023">claim 23</claim-ref>, wherein the plough implement is a reversible plough.</claim-text>
+</claim>
+<claim id="CLM-00030" num="00030">
+<claim-text><b>30</b>. The plough implement of <claim-ref idref="CLM-00023">claim 23</claim-ref>, wherein the at least one depth adjustment apparatus comprises a four-link parallelogram linkage configured to connect the main frame to the at least one respective ground engaging tool.</claim-text>
+</claim>
+<claim id="CLM-00031" num="00031">
+<claim-text><b>31</b>. A plough implement comprising:
+<claim-text>a main frame;</claim-text>
+<claim-text>a plurality of ground engaging tools, wherein the main frame supports the plurality of ground engaging tools;</claim-text>
+<claim-text>a depth adjustment apparatus comprising a hydraulic actuator configured to move at least one ground engaging tool of the plurality of ground engaging tools with respect to the main frame to enable adjustment of a working depth of the at least one ground engaging tool;</claim-text>
+<claim-text>a hydraulic system configured to control the hydraulic actuator; and</claim-text>
+<claim-text>a control unit connected to the hydraulic system, wherein the control unit is configured to control the hydraulic actuator of the depth adjustment apparatus via the hydraulic system, the control unit is configured to detect contact between the at least one ground engaging tool and an obstacle in response to a pressure increase within the hydraulic actuator, and the control unit, in response to detecting contact between the at least one ground engaging tool and the obstacle, is configured to control the hydraulic actuator to decrease the working depth of the at least one ground engaging tool or to reduce flow resistance within the hydraulic system to reduce a force applied by the hydraulic actuator.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00032" num="00032">
+<claim-text><b>32</b>. The plough implement of <claim-ref idref="CLM-00031">claim 31</claim-ref>, wherein the control unit is configured to control the hydraulic actuator to decrease the working depth of the at least one ground engaging tool in response to detecting contact between the at least one ground engaging tool and the obstacle.</claim-text>
+</claim>
+<claim id="CLM-00033" num="00033">
+<claim-text><b>33</b>. The plough implement of <claim-ref idref="CLM-00032">claim 32</claim-ref>, wherein the control unit is configured to control the hydraulic actuator to increase the working depth of the at least one ground engaging tool an amount of time after the working depth of the at least one ground engaging tool is decreased.</claim-text>
+</claim>
+<claim id="CLM-00034" num="00034">
+<claim-text><b>34</b>. The plough implement of <claim-ref idref="CLM-00031">claim 31</claim-ref>, wherein the plough implement is a reversible plough.</claim-text>
+</claim>
+<claim id="CLM-00035" num="00035">
+<claim-text><b>35</b>. The plough implement of <claim-ref idref="CLM-00031">claim 31</claim-ref>, wherein the depth adjustment apparatus comprises a four-link parallelogram linkage connecting the main frame to the at least one ground engaging tool.</claim-text>
+</claim>
+</claims>
+</us-patent-application>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v46-2022-02-17.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.6 2022-02-17" file="US20230200275A1-20230629.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20230613" date-publ="20230629">
+<us-bibliographic-data-application lang="EN" country="US">
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>20230200275</doc-number>
+<kind>A1</kind>
+<date>20230629</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>18145143</doc-number>
+<date>20221222</date>
+</document-id>
+</application-reference>
+<us-application-series-code>18</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>59</main-group>
+<subgroup>06</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230629</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>71</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230629</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>59</main-group>
+<subgroup>066</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230629</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>01</class>
+<subclass>B</subclass>
+<main-group>71</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230629</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<invention-title id="d2e43">UNIVERSAL TRACTOR IMPLEMENT</invention-title>
+<us-related-documents>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>63292813</doc-number>
+<date>20211222</date>
+</document-id>
+</us-provisional-application>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="00" app-type="applicant" designation="us-only">
+<addressbook>
+<last-name>Walkley</last-name>
+<first-name>Jeff</first-name>
+<address>
+<city>Monkton</city>
+<state>MD</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="00" designation="us-only">
+<addressbook>
+<last-name>Walkley</last-name>
+<first-name>Jeff</first-name>
+<address>
+<city>Monkton</city>
+<state>MD</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+</us-bibliographic-data-application>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A universal tractor implement frame for attaching to the three point hitch or drawbar of a tractor including two longitudinal beams, two transverse struts arranged between and perpendicular to the two longitudinal beams, and two longitudinal stabilizers. Forward and Rear sets of frame legs are attached to the forward and rear struts, respectively and are configured to connect at their distal ends to the upper link of the tractor's three point hitch or drawbar. Connection plates are attached to the forward strut for connecting to the two lower links of the tractor's three point hitch or stabilizers. Various working tools may be attached to the beams, stabilizers, and/or to the struts of the universal frame for carrying out the work of prior art tractor implements.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="130.39mm" wi="155.28mm" file="US20230200275A1-20230629-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="157.31mm" wi="144.86mm" orientation="landscape" file="US20230200275A1-20230629-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="142.41mm" wi="103.80mm" orientation="landscape" file="US20230200275A1-20230629-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="160.78mm" wi="126.49mm" orientation="landscape" file="US20230200275A1-20230629-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="146.47mm" wi="132.00mm" orientation="landscape" file="US20230200275A1-20230629-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="193.21mm" wi="124.38mm" orientation="landscape" file="US20230200275A1-20230629-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="152.06mm" wi="128.78mm" orientation="landscape" file="US20230200275A1-20230629-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="187.28mm" wi="127.51mm" orientation="landscape" file="US20230200275A1-20230629-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="189.31mm" wi="129.03mm" orientation="landscape" file="US20230200275A1-20230629-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="166.12mm" wi="127.17mm" orientation="landscape" file="US20230200275A1-20230629-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="116.42mm" wi="109.90mm" orientation="landscape" file="US20230200275A1-20230629-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="151.21mm" wi="121.41mm" orientation="landscape" file="US20230200275A1-20230629-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?summary-of-invention description="Summary of Invention" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<heading id="h-0002" level="1">Field of the Invention</heading>
+<p id="p-0002" num="0001">The present invention relates to farm, construction, and other working implements that attach to the three point hitch or the drawbar of a tractor.</p>
+<heading id="h-0003" level="1">Description of the Background</heading>
+<p id="p-0003" num="0002">The three point hitch and drawbar are standard and common ways of attaching various working implements to a tractor. Dozens if not scores of different implements exist, each with a different working function. Examples of such implements include box blades, mower/cutters, grader blades, land planes, tillers, cultivators, disc harrows, aerators, rippers, seeders, and many others.</p>
+<heading id="h-0004" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0004" num="0003">Each prior art tractor-drawn implement has its own functional structure as well as its own structure or frame for connecting to the tractor. Accordingly, a tractor owner who uses the tractor for many different types of work often owns (and has to store) numerous different implements, each with its own frame and attachment structure for the tractor. The present invention is a single universal implement frame which connects to a tractor's three point hitch or drawbar and which features a structure adapted to removably receive a wide range of different tools for different work functions. In this way, the tractor owner or user need only have a single universal implement frame which never (or rarely) needs to detach from the tractor. Rather, the universal implement frame can be converted from one type of job to another by adding or removing parts. In this way, the space necessary to store various tractor drawn implements can be reduced as much as 50%, since each tool no longer has a dedicated and integrated frame and attachment method. The present invention provides the additional advantage that the cost and weight of individual implements are significantly reduced.</p>
+<?summary-of-invention description="Summary of Invention" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0005" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0005" num="0004"><figref idref="DRAWINGS">FIG. <b>1</b></figref> is a perspective view of a universal implement frame according to an embodiment of the invention.</p>
+<p id="p-0006" num="0005"><figref idref="DRAWINGS">FIG. <b>2</b></figref> is a perspective view of a universal frame according to an alternate embodiment of the invention.</p>
+<p id="p-0007" num="0006"><figref idref="DRAWINGS">FIG. <b>3</b></figref> is a perspective view of a universal frame according to another alternate embodiment of the invention.</p>
+<p id="p-0008" num="0007"><figref idref="DRAWINGS">FIG. <b>4</b></figref> is a perspective view of a universal frame according to yet another alternate embodiment of the invention.</p>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. <b>5</b></figref> is a perspective view of a universal implement frame according to an embodiment of the invention with a box blade tool attachment.</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. <b>6</b></figref> is a perspective view of a universal implement frame according to an embodiment of the invention with an aerator tool attachment.</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. <b>7</b></figref> is a perspective view of a universal implement frame according to an embodiment of the invention with a land plane attachment</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. <b>8</b></figref> is a perspective view of a universal implement frame according to an embodiment of the invention with both land plane and cultipacker attachments.</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. <b>9</b></figref> is a perspective view of a universal implement frame according to an embodiment of the invention with a grader blade attachment.</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. <b>10</b></figref> is a perspective view of a universal implement frame according to an embodiment of the invention with a ripper attachment.</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. <b>11</b></figref> is a perspective view of a universal implement frame according to an embodiment of the invention with a PTO-driven brush cutter attachment.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?detailed-description description="Detailed Description" end="lead"?>
+<p id="p-0016" num="0015">Features in the attached drawings are numbered with the following reference numerals:</p>
+<p id="p-0017" num="0000">
+<tables id="TABLE-US-00001" num="00001">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="2">
+<colspec colname="1" colwidth="91pt" align="char"/>
+<colspec colname="2" colwidth="126pt" align="left"/>
+<thead>
+<row>
+<entry namest="1" nameend="2" align="center" rowsep="1"/>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry>1</entry>
+<entry>Parallel beams</entry>
+</row>
+<row>
+<entry>3</entry>
+<entry>Telescoping struts</entry>
+</row>
+<row>
+<entry>4</entry>
+<entry>Stabilizers</entry>
+</row>
+<row>
+<entry>5</entry>
+<entry>Front Frame</entry>
+</row>
+<row>
+<entry>7a, 7b</entry>
+<entry>Adjustable rear frame legs</entry>
+</row>
+<row>
+<entry>9</entry>
+<entry>Beam plate portion</entry>
+</row>
+<row>
+<entry>11</entry>
+<entry>Beam flange portion</entry>
+</row>
+<row>
+<entry>15</entry>
+<entry>Bolt holes</entry>
+</row>
+<row>
+<entry>17</entry>
+<entry>Larger hollow structural tube</entry>
+</row>
+<row>
+<entry>19</entry>
+<entry>Smaller hollow structural tube</entry>
+</row>
+<row>
+<entry>21</entry>
+<entry>Wear pads</entry>
+</row>
+<row>
+<entry>23</entry>
+<entry>Connection plates</entry>
+</row>
+<row>
+<entry>25</entry>
+<entry>End plates</entry>
+</row>
+<row>
+<entry>27</entry>
+<entry>Slotted holes</entry>
+</row>
+<row>
+<entry>29</entry>
+<entry>Clamping mechanism</entry>
+</row>
+<row>
+<entry namest="1" nameend="2" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<heading id="h-0006" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0018" num="0016">According to one object of the invention, there is provided a universal frame from which a broad range of 3-point hitch and drawbar attached implements can be created, used, and/or combined by attaching additional parts.</p>
+<p id="p-0019" num="0017">Referring to the figures, a preferred embodiment of the invention comprises two parallel beams <b>1</b>, two telescoping struts <b>3</b> that are arranged between and perpendicular to the beams <b>1</b>, and two parallel stabilizers <b>4</b> connected to the strut connection plates <b>23</b>. The beams <b>1</b> are preferably arranged so that their longitudinal axes are parallel to the direction of travel. The beams and stabilizers need not be utilized simultaneously. The invention also includes a tractor three point hitch attachment assembly including a front frame <b>5</b> and two adjustable rear frame legs <b>7</b>. The front frame can be used to attached to a tractor's drawbar in lieu of the three point hitch.</p>
+<p id="p-0020" num="0018">The beams <b>1</b> each have a plate portion <b>9</b> and a flange portion <b>11</b> along at least a partial perimeter of the plate portion <b>9</b>. The plate portion <b>9</b> and flange portion <b>11</b> have patterned bolt holes <b>15</b> for attaching the struts <b>3</b> and for attaching additional equipment/parts that are independent of the frame.</p>
+<p id="p-0021" num="0019">The telescoping struts <b>3</b> may be any type of telescoping structure with fixable positions. The examples shown in the Figures are made of one larger and two smaller hollow structural shapes <b>17</b>, <b>19</b> (HSS) that slide via wear pads <b>21</b>. The larger HSS <b>17</b> may be fitted connection plates <b>23</b> with holes where the front frame <b>5</b>, adjustable rear frame legs <b>7</b>, and the tractor's 3-point hitch lower arms can connect. The smaller HSS <b>19</b> have end plates <b>25</b> for fastening to the beams' plate portions <b>9</b>. There are slotted holes <b>27</b> on two opposing faces of the larger and smaller HSS members. Clamping mechanisms <b>29</b> on the struts secure their length once they are adjusted.</p>
+<p id="p-0022" num="0020">The stabilizers <b>4</b> are stiffening elements that connect to the struts and include hole patterns for fastening implements and for fastening to the struts at varying locations along their length. The examples shown in the figures are made of common structural angles.</p>
+<p id="p-0023" num="0021">The front frame <b>5</b> may be made of two longitudinal members having lower holes for fastening to the connection plates <b>23</b> on the struts <b>3</b>, and upper holes for fastening the adjustable rear frame legs <b>7</b> and the top link of the tractor's 3-point hitch or to the tractor's drawbar.</p>
+<p id="p-0024" num="0022">The adjustable rear frame legs <b>7</b> may be constructed of longitudinal members <b>7</b><i>a </i>and <b>7</b><i>b </i>with hole patterns. The holes on the ends of the plates <b>7</b><i>a </i>and <b>7</b><i>b </i>are used to fasten to the front frame <b>5</b> and to the connection plates on one of the telescoping struts <b>3</b>. The interior holes are for adjusting the overall length of the rear frame legs <b>7</b><i>a </i>and <b>7</b><i>b</i>, depending on where the telescoping struts <b>5</b> are attached to the beam plate portion <b>9</b>.</p>
+<p id="p-0025" num="0023"><figref idref="DRAWINGS">FIGS. <b>5</b>-<b>11</b></figref> show how the universal frame of the invention may be used to support a variety of farm and construction implements simply by attaching one or more implements to the parallel beams, stabilizers, and/or the struts of the invention. Different size implements may be accommodated by adjusting the telescoping struts <b>3</b> inward or outward, placing the struts closer or further apart, and by placing the struts higher or lower on the beams.</p>
+<?detailed-description description="Detailed Description" end="tail"?>
+</description>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text><b>1</b>. An implement frame configured for attachment to a three point tractor hitch or drawbar, the implement frame comprising:
+<claim-text>a. two beams arranged parallel to one-another, each defining a longitudinal axis parallel to a direction of travel, each said beam comprising a perforated plate bound on at least one edge by a perforated flange;</claim-text>
+<claim-text>b. at least two telescoping struts arranged between said two beams;</claim-text>
+<claim-text>c. a tractor hitch attachment assembly comprising
+<claim-text>i. a front frame attached at a bottom end to one of said at least two telescoping struts; and</claim-text>
+<claim-text>ii. two telescoping legs attached at bottom ends to a second of said at least two telescoping struts.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text><b>2</b>. An implement frame according to <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising two stabilizers arranged parallel to one-another and connected to said telescoping struts.</claim-text>
+</claim>
+</claims>
+</us-patent-application>
