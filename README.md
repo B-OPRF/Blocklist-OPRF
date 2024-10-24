@@ -2,7 +2,7 @@
 
 A C++ implementation on "Blocklisted OPRF".
 
-This software is provided for the purpose of anonymous review by ACM CCS reviewers only. See License.md for more details.
+This software is provided for the purpose of anonymous review by Euro S&P reviewers only. See License.md for more details.
 
 ## Running Protocol
 
