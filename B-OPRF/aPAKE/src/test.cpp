@@ -312,7 +312,7 @@ int main(int argc, char** argv)
 
 
     int setSize = SIM_list.size();
-    int ESPVecLen = 8;
+    int ESPVecLen = 224;
 
     vec_ZZ_p eval_points;
     eval_points.SetLength(2*ESPVecLen+1);
