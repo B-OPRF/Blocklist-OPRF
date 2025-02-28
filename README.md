@@ -2,7 +2,7 @@
 
 A C++ implementation on "Blocklisted OPRF".
 
-This software is provided for the purpose of anonymous review by ACM CCS reviewers only. See License.md for more details.
+This software is provided for the purpose of anonymous review by Euro S&P reviewers only. See License.md for more details.
 
 ## Running Protocol
 
@@ -54,3 +54,9 @@ $ make
 $ ./run ./[binaries] 12345 [more opts]
 ```
 
+**Accuracy**
+In "Pyton_experiments":
+- find_ed.py: generates all strings within edit distance = 2 from the list of 100 most common passwords.
+- ESP.py: an implementation for embedding a string to hamming distance.
+- cluster.py: calculate the clusters for the input blocklist.
+- plot.py: generate plots for result analysis.
