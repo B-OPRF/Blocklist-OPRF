@@ -30,7 +30,20 @@ $ make check
 $ sudo make install
 ```
 
-## Test Files 
+
+## Test Files
+**Accuracy**
+In "Accuracy":
+- find_ed.py: generates all strings within edit distance = 2 from the list of 100 most common passwords.
+- ESP.py: an implementation for embedding a string to hamming distance.
+- cluster.py: calculate the clusters for the input blocklist.
+
+```sh
+$ python3 find_ed.py
+$ python3 cluster.py
+$ python3 dataset.py
+```
+
 Test files "test.cpp" are in each protocol's folder "src". 
 
 **Circuit Generation**
@@ -53,10 +66,3 @@ In "test.cpp", set #define TEST_Auth 1
 $ make
 $ ./run ./[binaries] 12345 [more opts]
 ```
-
-**Accuracy**
-In "Pyton_experiments":
-- find_ed.py: generates all strings within edit distance = 2 from the list of 100 most common passwords.
-- ESP.py: an implementation for embedding a string to hamming distance.
-- cluster.py: calculate the clusters for the input blocklist.
-- plot.py: generate plots for result analysis.

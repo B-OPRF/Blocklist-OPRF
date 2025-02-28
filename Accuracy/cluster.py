@@ -1,6 +1,5 @@
 import random
 import hashlib
-import matplotlib.pyplot as plt
 from ESP import ESP_Type
 # from ESP_old import ESP_res
 import csv
