@@ -281,7 +281,7 @@ int main(int argc, char** argv)
     temp.push_back(line);
   } 
 
-  for (int i=0; i<100; i++) {
+  for (int i=0; i<100000; i++) {
     common.push_back(temp[i%100]);
   }
  
@@ -312,7 +312,7 @@ int main(int argc, char** argv)
 
 
     int setSize = SIM_list.size();
-    int ESPVecLen = 8;
+    int ESPVecLen = 128;
 
     vec_ZZ_p eval_points;
     eval_points.SetLength(2*ESPVecLen+1);
@@ -362,7 +362,7 @@ int main(int argc, char** argv)
     //NetIO* ios[2];
     //for(int i = 0; i < 2; ++i) {ios[i] = new NetIO(party == ALICE?nullptr:"127.0.0.1",port+i);}         // We need two channels, one for communicating in the plain, the other for the OT
     
-    int num_of_oles = 64;          // a number that is a multiple of 50
+    int num_of_oles = inputLength;          // a number that is a multiple of 50
     int num_of_ole_instances;
     if(num_of_oles <= RSMaxLength)
         num_of_ole_instances = 1;

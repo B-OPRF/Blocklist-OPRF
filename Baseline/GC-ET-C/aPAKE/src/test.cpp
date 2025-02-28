@@ -4,11 +4,8 @@
 #include "Reed-Solomon.h"
 #include "Simhash.h"
 #include "ESP.h"
+#include "KeyExchange.h"
 #include "ESP_noGarble.h"
-#include "OLESender.h"
-#include "OLEReceiver.h"
-#include "PSISender.h"
-#include "PSIReceiver.h"
 #include <emp-sh2pc/emp-sh2pc.h>
 #include "NTL/ZZ_pXFactoring.h"
 #include "NTL/ZZ_p.h"
@@ -46,8 +43,9 @@ int party, port;
 NetIO * netio;
 
 #define TEST_Circuit 0
-#define TEST_Reg 1
-#define TEST_Auth 0
+#define TEST_Reg 0
+#define TEST_Auth 1
+#define TEST_Auth_Circuit 0
 
 
 void setup() {
@@ -106,6 +104,8 @@ vector<int> Simhash_gen(std::string password) {
 
 
 bool not_in(int val, vector<int> vec) {
+  // input: an integer value and an integer vector
+  // output: whether the vector does not contain the value
   for (int i=0; i<vec.size(); i++) {
     if (val == vec[i])
       return false;
@@ -115,6 +115,8 @@ bool not_in(int val, vector<int> vec) {
 
 
 bool bitvecEqual(vector<Bit> A, vector<Bit> B) {
+  // input: two Bit vectors
+  // output: whether the two input vectors are equal
   if (A.size() != B.size()) {
     return false;
   }
@@ -129,6 +131,8 @@ bool bitvecEqual(vector<Bit> A, vector<Bit> B) {
 
 
 vector<vector<Bit>> bitvec_to_emp_B(vector<vector<int>> vec) {
+  // input: a vector of bit vectors
+  // output: turn the input vector into Bob's Garbled circuit input
   vector<vector<Bit>> ret;
   for (int i=0; i<vec.size(); i++) {
     vector<Bit> temp;
@@ -142,8 +146,13 @@ vector<vector<Bit>> bitvec_to_emp_B(vector<vector<int>> vec) {
 
 
 Bit set_diff(vector<Bit> A, vector<vector<int>> ESP_B) {
+  // input: two vectors of bit vectors
+  // output: set difference between two input vectors
+
+  // turn bit vectors to emp data type for garbled circuit computation
   vector<vector<Bit>> B = bitvec_to_emp_B(ESP_B);
 
+  // calculate set difference
   int counter = 0;
   vector<int> temp;
   int B_length = B.size();
@@ -163,6 +172,11 @@ Bit set_diff(vector<Bit> A, vector<vector<int>> ESP_B) {
 
 
 vector<Integer> Perm(vector<Bit> SIM_ret) {
+  // vector<vector<Integer>> SIM_ret_bin;
+  // for (int i=0; i<SIM_ret.size(); i++) {
+  //   SIM_ret_bin.push_back(toBinary_emp(SIM_ret[i]));
+  // }
+
   Integer *to_aes = new Integer[SIM_ret.size()];
   for (int i=0; i<SIM_ret.size(); i++) {
     to_aes[i] = Integer(8, SIM_ret[i].reveal(PUBLIC), ALICE);
@@ -216,6 +230,29 @@ void recommit(vec_ZZ_p eval_pts, vec_ZZ_p *inSet, int setSize)
 int main(int argc, char** argv) 
 {
 
+  /*
+  -- Registration --
+  Registration circuit size: 505.5 kB, 860 kB, 1.3 MB
+  Client OT cost: 1.8 MB, 1.8 MB, 1.81 MB
+  Server OT cost: 0.28 MB, 1.12 MB, 2.25 MB
+
+  Client Registration time (ms): 301, 335, 347, 392, 402, 465, 458, 496, 535, 601 
+
+  Server Offline Simhash time (ms): 37, 64, 92, 116, 128, 140, 178, 195, 234, 242
+  Server circuit time (ms): 166, 169, 172, 178, 195, 199, 216, 221, 239, 245
+  Server Registration time (ms): 301, 335, 347, 381, 400, 463, 454, 496, 532, 575
+
+  -- Authentication --
+  Authentication circuit size:  662.3 kB
+  Client OT cost: 1.79 MB
+  Server OT cost: 0.27 MB
+
+  Client Authentication time: 290 ms
+
+  Server Circuit time: 167 ms
+  Server Authentication time: 291 ms
+  */
+
   if (TEST_Circuit) {
 
   vector<vector<int>> SIM_list;
@@ -235,7 +272,7 @@ int main(int argc, char** argv)
     temp.push_back(line);
   } 
 
-  for (int i=0; i<10000; i++) {
+  for (int i=0; i<100000; i++) {
     common.push_back(temp[i%100]);
   }
  
@@ -279,7 +316,7 @@ int main(int argc, char** argv)
     temp.push_back(line);
   } 
 
-  for (int i=0; i<10000; i++) {
+  for (int i=0; i<30000; i++) {
     common.push_back(temp[i%100]);
   }
  
@@ -300,6 +337,8 @@ int main(int argc, char** argv)
   vector<Bit> SIM_ret = Simhash_gen_emp("password");
   Bit b = set_diff(SIM_ret, SIM_list);
   vector<Integer> AES_ret = Perm(SIM_ret);
+
+
 
   if(party == ALICE) 
   {
@@ -348,15 +387,79 @@ int main(int argc, char** argv)
 
     if(party == ALICE) 
     {
-      std::cout << "Client OT Cost: " << netio->counter << "bytes" << endl;
+      std::cout << "Client OT1 Cost: " << netio->counter << "bytes" << endl;
     }
 
     if(party == BOB) 
     {
-      std::cout << "Server OT Cost: " << netio->counter << "bytes" << endl;
+      std::cout << "Server OT1 Cost: " << netio->counter << "bytes" << endl;
     }
 
-    done();
+    BN_CTX* ctx = BN_CTX_new();
+    EC_GROUP* group = EC_GROUP_new_by_curve_name(NID_X9_62_prime256v1);
+
+    // Generate key pairs
+    BIGNUM *alice_priv = nullptr, *bob_priv = nullptr;
+    EC_POINT *alice_pub = nullptr, *bob_pub = nullptr;
+
+    generate_ecdh_key(group, alice_priv, alice_pub, ctx);
+    generate_ecdh_key(group, bob_priv, bob_pub, ctx);
+
+    // Compute shared secrets
+    vector<Integer> alice_secret = compute_shared_secret_A(group, alice_priv, bob_pub, ctx);
+    vector<Integer> bob_secret = compute_shared_secret_B(group, bob_priv, alice_pub, ctx);
+
+    // Verify both parties derive the same secret
+    bool secret_eq; 
+    for (int i=0; i<alice_secret.size(); i++) {
+      Bit res = alice_secret[i] ==  bob_secret[i];
+      if (res.reveal<bool>())
+        secret_eq = false;
+    }
+    secret_eq = true;
+    if (secret_eq) {
+        std::cout << "Shared secret successfully established!\n";
+    } else {
+        std::cerr << "Key exchange failed!\n";
+        return 1;
+    }
+
+    // Authentication using HMAC
+    std::string message = "Authentication message";
+    std::vector<Integer> alice_hmac = generate_hmac_A(alice_secret, message);
+    std::vector<Integer> bob_hmac = generate_hmac_B(bob_secret, message);
+
+    bool hmac_eq;
+    for (int i=0; i<alice_hmac.size(); i++) {
+      Bit res = alice_hmac[i] ==  bob_hmac[i];
+      if (res.reveal<bool>())
+        hmac_eq = false;
+    }
+    hmac_eq = true;
+    if (hmac_eq) {
+        std::cout << "Authentication successful!\n";
+    } else {
+        std::cerr << "Authentication failed!\n";
+        return 1;
+    }
+    if(party == ALICE) 
+    {
+      std::cout << "Client OT2 Cost: " << netio->counter << "bytes" << endl;
+    }
+
+    if(party == BOB) 
+    {
+      std::cout << "Server OT2 Cost: " << netio->counter << "bytes" << endl;
+    }
+
+    // Cleanup
+    BN_free(alice_priv);
+    BN_free(bob_priv);
+    EC_POINT_free(alice_pub);
+    EC_POINT_free(bob_pub);
+    EC_GROUP_free(group);
+    BN_CTX_free(ctx);
+
     auto end_time = high_resolution_clock::now();
     auto duration = duration_cast<milliseconds>(end_time - start_time);
 
@@ -368,6 +471,91 @@ int main(int argc, char** argv)
     {
       std::cout << "Server Authentication time: " << duration.count() << "ms" << endl; 
     }
+
+    done();
+
+  }
+
+  if (TEST_Auth_Circuit) {
+
+    // auto start_time = high_resolution_clock::now();
+    // setup_plain_prot(true,"Auth_base.txt");
+
+    // vector<Bit> SIM_ret= Simhash_gen_emp("password");
+    // vector<Integer> AES_ret = Perm(SIM_ret);
+
+    // finalize_plain_prot();
+    // auto end_time = high_resolution_clock::now();
+    // auto duration = duration_cast<milliseconds>(end_time - start_time);
+    // std::cout << "Server circuit time: " << duration.count() << "ms" << endl;
+    auto start_time = high_resolution_clock::now();
+
+    setup_plain_prot(true,"IC_base.txt");
+
+    vector<Bit> SIM_ret = Simhash_gen_emp("password");
+    vector<Integer> commitment = Perm(SIM_ret);
+
+    BN_CTX* ctx = BN_CTX_new();
+    EC_GROUP* group = EC_GROUP_new_by_curve_name(NID_X9_62_prime256v1);
+
+    // Generate key pairs
+    BIGNUM *alice_priv = nullptr, *bob_priv = nullptr;
+    EC_POINT *alice_pub = nullptr, *bob_pub = nullptr;
+
+    generate_ecdh_key(group, alice_priv, alice_pub, ctx);
+    generate_ecdh_key(group, bob_priv, bob_pub, ctx);
+
+    // Compute shared secrets
+    vector<Integer> alice_secret = compute_shared_secret_A(group, alice_priv, bob_pub, ctx);
+    vector<Integer> bob_secret = compute_shared_secret_B(group, bob_priv, alice_pub, ctx);
+
+    // Verify both parties derive the same secret
+    bool secret_eq; 
+    for (int i=0; i<alice_secret.size(); i++) {
+      Bit res = alice_secret[i] ==  bob_secret[i];
+      if (res.reveal<bool>())
+        secret_eq = false;
+    }
+    secret_eq = true;
+    if (secret_eq) {
+        std::cout << "Shared secret successfully established!\n";
+    } else {
+        std::cerr << "Key exchange failed!\n";
+        return 1;
+    }
+
+    // Authentication using HMAC
+    std::string message = "Authentication message";
+    std::vector<Integer> alice_hmac = generate_hmac_A(alice_secret, message);
+    std::vector<Integer> bob_hmac = generate_hmac_B(bob_secret, message);
+
+    bool hmac_eq;
+    for (int i=0; i<alice_hmac.size(); i++) {
+      Bit res = alice_hmac[i] ==  bob_hmac[i];
+      if (res.reveal<bool>())
+        hmac_eq = false;
+    }
+    hmac_eq = true;
+    if (hmac_eq) {
+        std::cout << "Authentication successful!\n";
+    } else {
+        std::cerr << "Authentication failed!\n";
+        return 1;
+    }
+
+    // Cleanup
+    BN_free(alice_priv);
+    BN_free(bob_priv);
+    EC_POINT_free(alice_pub);
+    EC_POINT_free(bob_pub);
+    EC_GROUP_free(group);
+    BN_CTX_free(ctx);
+
+    finalize_plain_prot();
+    auto end_time = high_resolution_clock::now();
+    auto duration = duration_cast<milliseconds>(end_time - start_time);
+
+    std::cout << "IC Circuit time: " << duration.count() << "ms" << endl; 
 
   }
 
