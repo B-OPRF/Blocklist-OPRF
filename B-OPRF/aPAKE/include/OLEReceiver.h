@@ -77,6 +77,10 @@ class OLEReceiver
         for(int i = 0; i < RSMaxLength; i++)
         {
             u[i] = x[i];
+            if(u[i] == 0){
+                cout << "ERROR in encoding" << endl;
+                exit(0);
+            }
         }    
 
         // Defining indices to add noise
@@ -257,8 +261,9 @@ class OLEReceiver
         ios[0]->send_block(b_v, n*num_encoding_instances);
         end_time = high_resolution_clock::now();
         duration = duration_cast<milliseconds>(end_time - start_time);
-        std::cout << "Server OLE time: " << duration.count() << "ms" << endl;
-        std::cout << "Server OLE Cost: " << ios[0]->counter/10024 << "KB" << endl;
+        // std::cout << "Receiver: Sending OLE vector time: " << duration.count() << "ms" << endl; 
+        cout << "Server OLE Cost: " << 2*(sizeof(block)*n*num_encoding_instances)*0.000125 << "KB" << endl;
+
 
         /*
         we will receive the blinded vectors from the client in one shot
@@ -314,9 +319,8 @@ class OLEReceiver
         ot.recv(recv,c, ot_length);
         end_time = high_resolution_clock::now();
         duration = duration_cast<milliseconds>(end_time - start_time);
-        std::cout << "Server OT Cost: " << ot_length/1000 << "KB" << endl; 
+        std::cout << "Server OLE time: " << duration.count() << "ms" << endl; 
 
-       
         
         for(int i = 0, k = 0; i < num_encoding_instances; i++)
         {
@@ -335,8 +339,6 @@ class OLEReceiver
            }
         }   
 
-  
-
         /*
         Finally we will get the OLE results
         We need to be careful that each encoding instance will be different
@@ -347,6 +349,7 @@ class OLEReceiver
         vec_ZZ_p interpolating_sets[num_encoding_instances];   
         vec_ZZ_p ret;
         ret.SetLength(inputLength);
+
         for(int i = 0,k = 0; i < num_encoding_instances; i++)
         {
             interpolating_sets[i].SetLength(l);
@@ -362,6 +365,7 @@ class OLEReceiver
                 ret[k++] = tmp[j];
             }    
         }
+        
         ios[0]->flush();
         ios[1]->flush();
         return ret;

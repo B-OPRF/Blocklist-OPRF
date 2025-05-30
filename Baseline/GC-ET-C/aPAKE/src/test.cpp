@@ -6,6 +6,10 @@
 #include "ESP.h"
 #include "KeyExchange.h"
 #include "ESP_noGarble.h"
+#include "OLESender.h"
+#include "OLEReceiver.h"
+#include "PSISender.h"
+#include "PSIReceiver.h"
 #include <emp-sh2pc/emp-sh2pc.h>
 #include "NTL/ZZ_pXFactoring.h"
 #include "NTL/ZZ_p.h"
@@ -42,9 +46,9 @@ using namespace NTL;
 int party, port;
 NetIO * netio;
 
-#define TEST_Circuit 0
+#define TEST_Circuit 1
 #define TEST_Reg 0
-#define TEST_Auth 1
+#define TEST_Auth 0
 #define TEST_Auth_Circuit 0
 
 
@@ -59,6 +63,13 @@ void done() {
 	finalize_semi_honest();
 }
 
+void hamming_dist(int n) {
+	Integer a(n, 0, ALICE);
+	Integer b(n, 0, BOB);
+	Integer c = a^b;
+	Integer d = c.hamming_weight();
+	d.reveal<string>();
+}
 
 vector<Bit> Simhash_gen_emp(std::string password) {
 
@@ -70,7 +81,7 @@ vector<Bit> Simhash_gen_emp(std::string password) {
   vector<Integer> SIM_res = Simhash_emp(ESP);
 
   vector<Bit> ret;
-  for (int i=0; i<128; i++) {
+  for (int i=0; i<32; i++) {
     if (i<SIM_res.size()) {
       ret.push_back(Bit(SIM_res[i].reveal<int>(PUBLIC), ALICE));
     }
@@ -91,7 +102,7 @@ vector<int> Simhash_gen(std::string password) {
   vector<int> SIM_res = Simhash(ESP);
 
   vector<int> ret;
-  for (int i=0; i<128; i++) {
+  for (int i=0; i<32; i++) {
     if (i<SIM_res.size()) {
       ret.push_back(SIM_res[i]);
     }
@@ -179,7 +190,7 @@ vector<Integer> Perm(vector<Bit> SIM_ret) {
 
   Integer *to_aes = new Integer[SIM_ret.size()];
   for (int i=0; i<SIM_ret.size(); i++) {
-    to_aes[i] = Integer(8, SIM_ret[i].reveal(PUBLIC), ALICE);
+    to_aes[i] = Integer(32, SIM_ret[i].reveal(PUBLIC), ALICE);
   }
   vector<Integer> AES_ret = AES(to_aes,SIM_ret.size());
 
@@ -272,7 +283,10 @@ int main(int argc, char** argv)
     temp.push_back(line);
   } 
 
-  for (int i=0; i<100000; i++) {
+  int blocklist_size = 100;
+  int vec_size = 32;
+
+  for (int i=0; i<blocklist_size; i++) {
     common.push_back(temp[i%100]);
   }
  
@@ -281,19 +295,29 @@ int main(int argc, char** argv)
     SIM_list.push_back(SIM_item);
   }
 
+  
+  // setup_plain_prot(true,"EM_base.txt");
+
+  // vector<Bit> SIM_ret = Simhash_gen_emp("password");
+  // if (set_diff(SIM_ret, SIM_list).reveal<bool>(BOB)) {
+  //   vector<Integer> AES_ret = Perm(SIM_ret);
+  // }
+
+  // finalize_plain_prot();
+
   auto start_time = high_resolution_clock::now();
-  setup_plain_prot(true,"EM_base.txt");
+  setup_plain_prot(true, "circuit.txt");
 
   vector<Bit> SIM_ret = Simhash_gen_emp("password");
-  if (set_diff(SIM_ret, SIM_list).reveal<bool>(BOB)) {
-    vector<Integer> AES_ret = Perm(SIM_ret);
+  for (int i=0; i<blocklist_size*vec_size; i++) {
+    hamming_dist(i);
   }
-
-  finalize_plain_prot();
+  vector<Integer> AES_ret = Perm(SIM_ret);
+  
+	finalize_plain_prot ();
   auto end_time = high_resolution_clock::now();
   auto duration = duration_cast<milliseconds>(end_time - start_time);
-  std::cout << "Server circuit time: " << duration.count() << "ms" << endl; 
-
+  std::cout << "Circuit time: " << duration.count() << "ms" << endl; 
   }
 
   if (TEST_Reg) {
@@ -316,7 +340,10 @@ int main(int argc, char** argv)
     temp.push_back(line);
   } 
 
-  for (int i=0; i<30000; i++) {
+  int blocklist_size = 100;
+  int vec_size = 32;
+
+  for (int i=0; i<blocklist_size; i++) {
     common.push_back(temp[i%100]);
   }
  
@@ -334,11 +361,14 @@ int main(int argc, char** argv)
   parse_party_and_port(argv, &party, &port);
   setup();
 
+  // vector<Bit> SIM_ret = Simhash_gen_emp("password");
+  // Bit b = set_diff(SIM_ret, SIM_list);
+  // vector<Integer> AES_ret = Perm(SIM_ret);
   vector<Bit> SIM_ret = Simhash_gen_emp("password");
-  Bit b = set_diff(SIM_ret, SIM_list);
+  for (int i=0; i<blocklist_size*vec_size; i++) {
+    ham(1);
+  }
   vector<Integer> AES_ret = Perm(SIM_ret);
-
-
 
   if(party == ALICE) 
   {

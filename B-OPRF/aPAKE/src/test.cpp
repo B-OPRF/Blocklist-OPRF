@@ -47,8 +47,8 @@ using namespace NTL;
 int party, port;
 NetIO * netio;
 
-#define TEST_Circuit 1
-#define TEST_Reg 0
+#define TEST_Circuit 0
+#define TEST_Reg 1
 #define TEST_Auth 0
 
 
@@ -216,6 +216,18 @@ void recommit(vec_ZZ_p eval_pts, vec_ZZ_p *inSet, int setSize)
 
 int main(int argc, char** argv) 
 {
+
+  /*
+  Embed-and-Map circuit size: 2.6 MB
+  Client EM OT cost: 1.83 MB
+  Server EM OT cost: 0.34 MB
+
+  Client EmbedMap time: 1374 ms
+  Server circuit time: 358 ms
+  Server EmbedMap time: 1373 ms
+
+  */
+
   if (TEST_Circuit) {
 
   auto start_time = high_resolution_clock::now();
@@ -263,7 +275,7 @@ int main(int argc, char** argv)
   }
 
 
-  start_time = high_resolution_clock::now();
+  // start_time = high_resolution_clock::now();
   vector<vec_ZZ_p> SIM_list;
 
   std::ifstream pwfile("100Common.txt");
@@ -281,7 +293,9 @@ int main(int argc, char** argv)
     temp.push_back(line);
   } 
 
-  for (int i=0; i<100000; i++) {
+  int blocklist_size = 5000;
+
+  for (int i=0; i<blocklist_size; i++) {
     common.push_back(temp[i%100]);
   }
  
@@ -290,12 +304,12 @@ int main(int argc, char** argv)
     SIM_list.push_back(SIM_item);
   }
   
-  end_time = high_resolution_clock::now();
-  duration = duration_cast<milliseconds>(end_time - start_time);
-  if(party == ALICE)      // Server
-  {
-  std::cout << "Server Offline Simhash time: " << duration.count() << "ms" << endl;
-  } 
+  // end_time = high_resolution_clock::now();
+  // duration = duration_cast<milliseconds>(end_time - start_time);
+  // if(party == ALICE)      // Server
+  // {
+  // std::cout << "Server Offline Simhash time: " << duration.count() << "ms" << endl;
+  // } 
 
 
     ZZ_p::init(prime);
@@ -311,8 +325,8 @@ int main(int argc, char** argv)
     }
 
 
-    int setSize = SIM_list.size();
-    int ESPVecLen = 224;
+    int setSize = blocklist_size;
+    int ESPVecLen = 32;
 
     vec_ZZ_p eval_points;
     eval_points.SetLength(2*ESPVecLen+1);
@@ -451,7 +465,7 @@ int main(int argc, char** argv)
 
     vector<int> ESP_res;
 
-    for (int i=0; i<32; i++) {
+    for (int i=0; i<64; i++) {
       int digit = 0;
       for (int j=0; j<ESP.size(); j++) {
         if (i < ESP[j].size()) {
@@ -483,17 +497,17 @@ int main(int argc, char** argv)
 
 	  vec_ZZ_p ss = secret_share(AES(SIM), maxLen);
 
-	  finalize_plain_prot();
+	  
     vec_ZZ_p y_S_vec = secret_share(SIM_ret, maxLen);
     vec_ZZ_p sub;
-    for (int i=0; i<32; i++) {
+    for (int i=0; i<64; i++) {
       sub.append(ss[i]-r[i]*y_S_vec[i]);
     }
 
     end_time = high_resolution_clock::now();
     duration = duration_cast<milliseconds>(end_time - start_time);
     std::cout << "Server Authentication Offline time: " << duration.count() << "ms" << endl;
-
+    finalize_plain_prot();
     vec_ZZ_p P;
     P.SetLength(maxLen);
     for(int i = 0; i < n + secParam; i++)
@@ -502,7 +516,7 @@ int main(int argc, char** argv)
     }
 
     vec_ZZ_p Alpha;
-    Alpha.SetLength(k);
+    Alpha.SetLength(k); 
     int i = 0;
     for(i; i < k; i++)
     {

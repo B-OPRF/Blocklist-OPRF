@@ -160,10 +160,8 @@ class OLESender
        The packet will contain vectors for all the encoding, so we will split 
        it into chunks later
            */
-        
         block *b_v = new block[n*num_encoding_instances];
         ios[0]->recv_block(b_v,n*num_encoding_instances);
-        
         vec_ZZ_p V[num_encoding_instances];
         for(int i = 0, k = 0; i < num_encoding_instances; i++)
         {
@@ -179,18 +177,17 @@ class OLESender
                 k++;
             }
         }
-        
 
        /*
        We will compute the OLE correlations. 
        For each encoding instance, we need to compute the correlations
        For this we will first select the random vectors T and S
        */
-       
-      
+
         vec_ZZ_p W[num_encoding_instances];
         for(int i = 0; i < num_encoding_instances; i++)      
             W[i] = ole_get_results(Clients_Input_Mul[i], Clients_Input_Add[i], Alpha, Beta, V[i], T[i]);
+     
         /* 
         We will send the blinded OLE vectors
         All the vectors for all the encoding instances will be sent in one shot
@@ -209,12 +206,11 @@ class OLESender
 
             }
         }
+        ios[0]->send_block(b_w, n*num_encoding_instances); 
         auto end_time = high_resolution_clock::now();
         auto duration = duration_cast<milliseconds>(end_time - start_time);
-        std::cout << "Client OLE time: " << duration.count() << "ms" << endl; 
-        ios[0]->send_block(b_w, n*num_encoding_instances);
-        
-        cout << "Client OLE Cost: " << ios[0]->counter/10024 << "KB" << endl;
+        std::cout << "Client OLE time: " << duration.count() << "ms" << endl;
+        cout << "Client OLE Cost: " << (sizeof(block)*n*num_encoding_instances)*0.000125 << "KB" << endl;
 
         ios[0]->flush();
 
@@ -247,11 +243,12 @@ class OLESender
                 k++;
             }
         }
-        end_time = high_resolution_clock::now();
-        duration = duration_cast<milliseconds>(end_time - start_time);
+        start_time = high_resolution_clock::now();
         ot.send(b0, b1, ot_length);
         //ios[1]->flush();
-        std::cout << "Client OT cost: " << 2*ot_length/1000 << "KB" << endl; 
+        end_time = high_resolution_clock::now();
+        duration = duration_cast<milliseconds>(end_time - start_time);
+        // std::cout << "Sender: OT time for " << ot_length << " inputs: " << duration.count() << "ms" << endl; 
 
         ios[0]->flush();
         ios[1]->flush();

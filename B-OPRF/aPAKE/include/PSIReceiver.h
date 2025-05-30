@@ -324,11 +324,12 @@ class PSIReceiver
             num_of_ole_instances = num_of_oles/RSMaxLength + 1;
         OLEReceiver ole_receiver(port, context, prime, num_of_ole_instances);
 
-        vec_ZZ_p eval_ole_polys_combined = ole_receiver.compute_ole(set_of_ole_inputs, num_of_oles, Alpha, Beta);
-       
-       
-       
         auto start_time = high_resolution_clock::now();
+        vec_ZZ_p eval_ole_polys_combined = ole_receiver.compute_ole(set_of_ole_inputs, num_of_oles, Alpha, Beta);
+        auto end_time = high_resolution_clock::now();
+        auto duration = duration_cast<milliseconds>(end_time - start_time);
+        // std::cout << "Server OLE time: " << duration.count() << "ms" << endl; 
+       
         
         ZZ_pX ole_poly[setSize];
         k = 0;
@@ -344,6 +345,7 @@ class PSIReceiver
             ole_poly[i] = interpolate(eval_pts, eval_ole_poly[i]);
         }
 
+        start_time = high_resolution_clock::now();
         vec_ZZ_p intersecting_elems[setSize];
         for(int i = 0; i < setSize; i++)
         {
@@ -355,8 +357,8 @@ class PSIReceiver
             if(DEBUG_INTERSECTION) cout << "intersection: " << intersecting_elems[i] << endl;
         }
 
-        auto end_time = high_resolution_clock::now();
-        auto duration = duration_cast<milliseconds>(end_time - start_time);
+        end_time = high_resolution_clock::now();
+        duration = duration_cast<milliseconds>(end_time - start_time);
         std::cout << "Server PSI time: " << duration.count() << "ms" << endl; 
         /* 
         We will get the elements for the commitment
@@ -409,13 +411,11 @@ class PSIReceiver
         cout << "Server OT Cost: " << io->counter << "bytes" << endl;
         //std::cout << "Receiver: Commit time (1): " << duration.count() << "ms" << endl; 
   
-        start_time = high_resolution_clock::now();
+        
         block *b_r = new block[eval_pts.length()];
         io->recv_block(b_r, eval_pts.length());
-        end_time = high_resolution_clock::now();
-        duration = duration_cast<milliseconds>(end_time - start_time);
-        std::cout << "Server Commit time: " << duration.count() << "ms" << endl; 
-        //cout << "Receiver: OT Cost: " << io->counter << "bytes" << endl;
+        
+        start_time = high_resolution_clock::now();
         vec_ZZ_p commit_elem;
         ZZ_p committed_elem;
         commit_elem.SetLength(eval_pts.length());
@@ -440,7 +440,9 @@ class PSIReceiver
         reverse(commit_elem_str.begin(),commit_elem_str.end());
         const char* commit_elem_arr = commit_elem_str.c_str();
         committed_elem = sha256(commit_elem_arr);
-        
+        end_time = high_resolution_clock::now();
+        duration = duration_cast<milliseconds>(end_time - start_time);
+        std::cout << "Server Commit time: " << duration.count() << "ms" << endl; 
         
         /* 
         TODO: The server will commit to the elements in the vector commit_elem. That is the server will compute H(commit_elem).

@@ -328,6 +328,7 @@ class PSISender
         }
         auto start_time = high_resolution_clock::now();
         io->send_block(b_s, eval_pts.length());
+        cout << "Client OT Cost: " << io->counter << "bytes" << endl;
         
         auto end_time = high_resolution_clock::now();
         auto duration = duration_cast<milliseconds>(end_time - start_time);
